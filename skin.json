@@ -372,6 +372,9 @@
         "owner": "ShadowMonster99",
         "repo_name": "Simply-Dark"
     },
+    "discord_support": {
+        "serverId": "1102739071085846623"
+    },
     "tags": [
         "Minimal",
         "Dark",
