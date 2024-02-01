@@ -1,10 +1,10 @@
 /* Set default window colors on the Overlay */
 .steamdesktopoverlay_OverlayPopup_C9tvu {
-    background: radial-gradient(155.42% 100% at 0% 0%, #151515 0 0%, #191919 100%) !important;
+    background: radial-gradient(155.42% 100% at 0% 0%, var(--darkergrey) 0 0%, var(--color-darker) 100%) !important;
 }
 
 .screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma {
-    background: #303030 !important;
+    background: var(--color-light) !important;
 }
 
 .screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma.screenshotmanagerdialog_Disabled_2DImO {
@@ -13,14 +13,14 @@
 
 /* Popup Modals */
 .DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 button.DialogButton {
-    background: #303030 !important;
+    background: var(--color-light) !important;
 }
 
 /* No Screenshots Modal Dialog */
 .screenshotmanagerdialog_ExplainerBox_2lrrN {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }

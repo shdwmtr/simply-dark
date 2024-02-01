@@ -1,13 +1,13 @@
 .DialogContent {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 .DialogButton {
-    background: #303030 !important;
+    background: var(--color-light) !important;
 }
 
 [class*="launchoptionsdialog_LaunchOptionDialog_"] {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 [class*="launchoptionsdialog_ListContainer_"] {
@@ -15,12 +15,12 @@
 }
 
 [class*="launchoptionsdialog_ListItem_"] {
-    background: #303030 !important;
+    background: var(--color-light) !important;
     border-radius: 4px;
 }
 
 [class*="launchoptionsdialog_CancelButton_"] {
-    background: #303030 !important;
+    background: var(--color-light) !important;
 }
 
 img[class*="libraryassetimage_Image_"][class*="libraryassetimage_Visibility_"][class*="libraryassetimage_Visible_"] {

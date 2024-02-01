@@ -24,7 +24,7 @@
 }
 
 .steamdesktop_TitleBar_39oUC {
-    background: #191919 !important;
+    background: var(--color-darker) !important;
 }
 
 .steamdesktop_TitleBar_39oUC .steamdesktop_TitleBarControls_1-9si {
