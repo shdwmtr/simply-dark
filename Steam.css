@@ -230,7 +230,7 @@ img[class*="libraryassetimage_Image_"][class*="libraryassetimage_Visibility_"][c
 }
 
 [class*="appdetailsplaysection_MenuButton_"] {
-    background: var(--color-dark)9c !important;
+    background: #2121219c !important;
 }
 
 [class*="appdetailsprimarylinkssection_LinksSection_"]>div {
@@ -631,7 +631,7 @@ button.mllnm-button.mllnm-button-title,
 }
 
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
-    background: linear-gradient(to top, var(--blacker-ish) 0%, var(--blacker-ish) 75%, var(--blacker-ish)3d 100%) !important;
+    background: linear-gradient(to top, var(--blacker-ish) 0%, var(--blacker-ish) 75%, #1b1b1b3d 100%) !important;
     backdrop-filter: blur(10px) !important;
 }
 .appdetailsplaysection_PlayBar_3fLo1.appdetailsplaysection_Glassy_3DeO9 {
