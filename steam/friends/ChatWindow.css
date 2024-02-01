@@ -14,25 +14,19 @@
 }
 
 .titleBarContainer.ChatTabs {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {
-    background-color: #303030 !important;
+    background-color: var(--color-light) !important;
 }
 
 .displayRow.minHeightZero.Panel.Focusable {
-    background: #181818 !important;
+    background: var(--thegrey) !important;
 }
 
 html.client_chat_frame .chatWindow .chatEntry {
     padding-right: 0px !important;
-}
-
-.chatentry_chatEntryControls_2gP0D {
-    background-color: #1b1c20 !important;
-    height: 40px !important;
-    box-shadow: none !important;
 }
 
 /* .chatentry_chatSubmitButton_1IEiK {
@@ -44,6 +38,13 @@ html.client_chat_frame .chatWindow .chatEntry {
     min-width: 0px !important;
 } */
 
+.chatentry_chatSubmitButton_1IEiK {
+    min-height: 35px !important;
+    min-width: 35px !important;
+    border: none !important;
+    border-radius: 4px !important;
+}
+    
 .chatentry_chatSubmitButton_1IEiK.chatentry_disabled_2GM2k {
     background: none !important;
 }
@@ -55,7 +56,9 @@ html.client_chat_frame .chatWindow .chatEntry {
 
 form.chatentry_chatEntryControls_2gP0D {
     border-radius: 4px !important;
-    background: #151515 !important;
+    background: var(--darkergrey) !important;
+    height: 40px !important;
+    box-shadow: none !important;
 }
 
 .chatEntry.Panel.Focusable {
@@ -63,17 +66,46 @@ form.chatentry_chatEntryControls_2gP0D {
 }
 
 .chatWindow .chatEntry {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
-button.chatentry_chatSubmitButton_1IEiK.chatentry_EmoticonPickerButton_K-lPM.Focusable {
-    background: #151515;
+.chatentry_chatEntryActionsGroup_3grea{
+    box-shadow: none !important;
+    padding: 0 !important;
+    background-color: transparent !important;
 }
 
-.chatentry_chatSubmitButton_1IEiK.chatentry_EmbedButton_24xNx {
-    background: #151515;
+button.chatentry_chatSubmitButton_1IEiK.chatentry_EmoticonPickerButton_K-lPM.Focusable, 
+.chatentry_chatSubmitButton_1IEiK.chatentry_EmbedButton_24xNx,
+button.VoiceToggle {
+    background: var(--darkergrey);
+    min-height: 40px !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin-right: 4px;
+    border: none !important;
+    border-radius: 4px !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChatMessageEntryVoice{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent;
+}
+
+.VoiceToggleIconCtn{
+    position: static;
+    top: auto;
+    left: auto;
 }
 
 button.VoiceToggle.Inactive.Focusable {
-    background: #151515;
+    background: var(--darkergrey);
 }

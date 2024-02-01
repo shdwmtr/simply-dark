@@ -2,7 +2,7 @@
 @import url(ChatWindow.css);
 
 .friendListHeaderContainer {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 .friend.quickAccessFriend .avatarHolder .avatar {
@@ -15,7 +15,7 @@
 }
 
 .friendsListSectionTitle {
-    background: #303030 !important;
+    background: var(--color-light) !important;
 }
 
 .friendListFooter {
@@ -68,11 +68,11 @@ img.steamavatar_avatarFrameImg_338kJ {
 }
 
 .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
-    background-color: #303030 !important;
+    background-color: var(--color-light) !important;
 }
 
 .friendlistListContainer {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 .activeTab {
@@ -96,7 +96,7 @@ img.steamavatar_avatarFrameImg_338kJ {
 }
 
 .activeTab .TabSearchButton {
-    background: #303030 !important;
+    background: var(--color-light) !important;
 }
 
 .tabSearchTransitionGroup::after {
@@ -109,5 +109,5 @@ img.steamavatar_avatarFrameImg_338kJ {
 }
 
 .chatRoomListContainer {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }

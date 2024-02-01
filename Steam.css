@@ -230,7 +230,7 @@ img[class*="libraryassetimage_Image_"][class*="libraryassetimage_Visibility_"][c
 }
 
 [class*="appdetailsplaysection_MenuButton_"] {
-    background: #2121219c !important;
+    background: var(--color-dark)9c !important;
 }
 
 [class*="appdetailsprimarylinkssection_LinksSection_"]>div {
@@ -358,7 +358,7 @@ img[class*="libraryassetimage_Image_"][class*="libraryassetimage_Visibility_"][c
 }
 
 .allcollections_Collection_3IWn- {
-    background: #454545 !important;
+    background: var(--grey-ish) !important;
 }
 /* BETA FEATURES */
 
@@ -432,7 +432,7 @@ img[class*="libraryassetimage_Image_"][class*="libraryassetimage_Visibility_"][c
 }
 
 .menu_MenuItem_2jXHP.menu_Item_2uiDe:hover {
-    background-color: #454545 !important;
+    background-color: var(--grey-ish) !important;
     color: #fff !important;
 }
 
@@ -451,7 +451,7 @@ img[class*="libraryassetimage_Image_"][class*="libraryassetimage_Visibility_"][c
 /* URL BAR */
 
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s {
-    background: #151515 !important;
+    background: var(--darkergrey) !important;
     box-shadow: none;
     border-bottom: 0.5px solid #202020;
 }
@@ -482,11 +482,11 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 } */
 
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
-    background: #353535 !important;
+    background: var(--lightergrey) !important;
 }
 
 .pagedsettings_PageListSeparator_1UEEm {
-    background: #353535 !important;
+    background: var(--lightergrey) !important;
 }
 
 .radio_Group_2qYC3 {
@@ -555,7 +555,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 
 .contextmenu_contextMenuContents_2y2tU.contextmenu_ForceDesktop_7K1n9 {
     background: var(--color-dark) !important;
-    border: 1px solid #353535 !important;
+    border: 1px solid var(--lightergrey) !important;
     padding: 0 !important;
 }
 
@@ -627,18 +627,18 @@ button.mllnm-button.mllnm-button-title,
 }
 
 [class*="gamelistbar_Container_"] {
-    background: #191919 !important;
+    background: var(--color-darker) !important;
 }
 
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
-    background: linear-gradient(to top, #1b1b1b 0%, #1b1b1b 75%, #1b1b1b3d 100%) !important;
+    background: linear-gradient(to top, var(--blacker-ish) 0%, var(--blacker-ish) 75%, var(--blacker-ish)3d 100%) !important;
     backdrop-filter: blur(10px) !important;
 }
 .appdetailsplaysection_PlayBar_3fLo1.appdetailsplaysection_Glassy_3DeO9 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(31 31 31 / 0%) calc(100%), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%) !important;
 }
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
-    background: #1b1b1b !important; 
+    background: var(--blacker-ish) !important; 
 }
 
 .library_MainPanel_3BFcm.MediumRightPanel {
@@ -650,7 +650,7 @@ button.mllnm-button.mllnm-button-title,
 }
 
 .steamdesktop_ContentFrame_1rDh5 {
-    background: #191919;
+    background: var(--color-darker);
 }
 
 .contextmenu_contextMenu_LQkrb {
@@ -674,5 +674,9 @@ button.mllnm-button.mllnm-button-title,
 }
 
 body.ContextMenuPopupBody.DesktopUI {
+    background: transparent !important;
+}
+
+.libraryhomeshowcases_CollectionDropDown_1YdRd .DialogInputLabelGroup ._DialogInputContainer{
     background: transparent !important;
 }

@@ -78,7 +78,7 @@
     pointer-events: none !important;
     box-sizing: border-box !important;
     font-size: 13px !important;
-    background-color: #454545 !important;
+    background-color: var(--grey-ish) !important;
     border-radius: 2px !important;
     padding: 6px 8px !important;
     box-shadow: 1px 1px 8px #0005, 2px 2px 16px 1px #0005 !important;
