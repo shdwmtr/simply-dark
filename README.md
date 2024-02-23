@@ -4,9 +4,9 @@
 
 # Simply, Dark.
 
-A break from Steam's new eyestraining theme
+A break from Steam's new eye-straining theme
 
-![Steam Skin](https://cdn.discordapp.com/attachments/923018893256167454/1139241592742482052/Screenshot_2023-08-10_135725.png)
+![Steam Skin](https://i.imgur.com/uXtPTnr.png)
 
 </div>
 
