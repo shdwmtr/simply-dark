@@ -359,16 +359,16 @@
     "UseDefaultPatches": true,
     "name": "Simple Dark.",
     "author": "ShadowMonster",
-    "description": "A sleek and elegant theme that brings a darker, more immersive experience to your Steam client. This theme focuses on enhancing your visual comfort during extended gaming sessions, with carefully crafted CSS adjustments that darken the interface without altering its familiar design. While utilizing a touch of JavaScript for specific functionality, the primary focus remains on refining the color scheme to reduce eye strain and create a cozy ambiance.",
+    "description": "A sleek and elegant theme that brings a darker, more immersive experience to your Steam client.",
     "discord_support": {
-        "inviteCodeExcludingLink": "MXMWEQKgJF"
+        "inviteCodeExcludingLink": "NcNMP6r2Cw"
     },
     "github": {
         "owner": "ShadowMonster99",
         "repo_name": "Simply-Dark"
     },
-    "header_image": "https://cdn.discordapp.com/attachments/923018893256167454/1139241592742482052/Screenshot_2023-08-10_135725.png",
-    "splash_image": "https://cdn.discordapp.com/attachments/923018893256167454/1139241592742482052/Screenshot_2023-08-10_135725.png",
+    "header_image": "https://i.imgur.com/uXtPTnr.png",
+    "splash_image": "https://i.imgur.com/uXtPTnr.png",
     "tags": [
         "Minimal",
         "Dark",
