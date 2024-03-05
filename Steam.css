@@ -680,3 +680,18 @@ body.ContextMenuPopupBody.DesktopUI {
 .libraryhomeshowcases_CollectionDropDown_1YdRd .DialogInputLabelGroup ._DialogInputContainer{
     background: transparent !important;
 }
+
+/* Dropdowns in home
+EG: "Play next" category names & "Sort by" dropdown */
+
+.DesktopUI [class*="contextmenu_ContextMenuFocusContainer_"] [class*="dropdown_DialogDropDownMenu_"]._DialogInputContainer{
+    border: 1px solid #313131 !important;
+    box-sizing: border-box;
+    background: #252525 !important; 
+    border-radius: 6px !important;
+}
+
+.DesktopUI [class*="contextmenu_ContextMenuFocusContainer_"] [class*="dropdown_DialogDropDownMenu_"]._DialogInputContainer [class*="dropdown_Dialog_DropDownMenu_Item"]:hover{
+    background: var(--color-dark) !important;
+    color: #fff !important;
+}

@@ -19,13 +19,3 @@
     transition: opacity 0.3s ease-out;
     opacity: 0;
 }
-
-/* This allows for hover to work on this element.*/
-/* Although this ruins dragging for the far-left where the menu is, it should be fine.*/
-[class*="steamdesktop_RootMenuBar_"]{
-    -webkit-app-region: no-drag;
-}
-
-[class*="steamdesktop_RootMenuBar_"]:hover > div {
-    opacity: 1 !important;
-} /* - Maple */
