@@ -210,6 +210,8 @@ img.tab_item_cap_img{border-radius:var(--border0)!important}
 .tab_preview{border-radius:var(--border0)!important}
 .carousel_items.store_capsule_container{border-radius:var(--border0)!important}
 .screenshot_container{display:none!important}
+.screenshot_popup_modal_content{background:var(--darkgrey)!important;}
+.screenshot_popup_modal_footer{overflow: visible!important;}
 .share{border-radius:var(--border0)!important}
 .newshr{background-image:none!important}
 img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
@@ -640,7 +642,9 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .short_header{background-color:var(--grey)!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .short_header:hover{background-color:var(--begrey)!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .discount_block.no_discount .bundle_base_discount{border-right:0!important}
-.queue_controls_description{color:var(--gold)!important;background:0 0!important;margin-top:-28px!important}
+.queue_controls_description{color:var(--gold)!important;background:0 0!important;margin-top:-10px!important;margin-left:12px}
+.queue_btn_menu>.queue_menu_arrow,.queue_btn_menu>.queue_menu_arrow:hover{background: var(--grey)!important;}
+.queue_btn_menu>.queue_menu_arrow:hover img{filter: grayscale(100) brightness(100);}
 /* .btn_next_in_queue .next_in_queue_content{padding:25px 15% 0 28%!important}
 .btn_next_in_queue{background:0 0!important;background-color:#584d31!important;width:230px!important;height:80px!important;margin-bottom:-10px!important;margin-right:-15px!important;margin-top:-35px!important;border-radius:var(--border5)!important}
 .btn_next_in_queue{background:0 0!important;background-color:var(--bronze)!important;width:230px!important;height:80px!important;margin-bottom:-10px!important;margin-right:-15px!important;margin-top:20px!important;border-radius:var(--border5)!important}
