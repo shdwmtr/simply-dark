@@ -52,7 +52,6 @@
     padding: 0px 0px 2px 0px !important;
 }
 
-[class*="bottombar_BottomBar"] [class*="updatealert_Alert_"] /* need to find out what this is */,
 [class*="bottombar_BottomBar"] [class*="DownloadStatus_"] [class*="DetailedDownloadProgress"] [class*="IconBevel"] {
     display: none !important; 
 }
@@ -91,4 +90,17 @@
 [class*="bottombar_BottomBar"] [class*="AddGameButton"]:hover [class*="bottombar_Text"],
 [class*="bottombar_BottomBar"] [class*="FriendsButton"]:hover [class*="bottombar_Text"] {
     opacity: 1 !important;
+}
+
+[class*="bottombar_BottomBarContainer"] > div:first-of-type{
+    position: fixed;
+    width: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+[class*=bottombar_SteamFamilyJoinClientBeta]{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
