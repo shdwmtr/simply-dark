@@ -60,11 +60,19 @@ img.steamavatar_avatarFrameImg_338kJ {
 }
 
 .ingame .personanameandstatus_playerName_r62qz {
-    color: #6dcff6 !important;
+    color: #89c604 !important;
+}
+
+.friend.offline {
+    opacity: .5;
 }
 
 :not(.friendInviteContainer) .ingame .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-    fill: #6dcff6 !important;
+    fill: #89c604 !important;
+}
+
+.friend.awayOrSnooze .labelHolder{
+    opacity: .35;
 }
 
 .friendStatusHover.ingame:hover, .friendStatusHover.ingame.Friend_ContextMenuActive {
