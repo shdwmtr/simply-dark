@@ -9,7 +9,7 @@
 .chatTabSetContainer.inclient {
     margin-bottom: 7px !important;
 }
-.chattabs_ChatTab_2Vrcp {
+.X2iywwN7fcdh9zXpXVsrk {
     border-radius: 3px !important;
 }
 
@@ -17,7 +17,7 @@
     background: var(--color-dark) !important;
 }
 
-.chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
     background-color: var(--color-light) !important;
 }
 
@@ -38,23 +38,23 @@ html.client_chat_frame .chatWindow .chatEntry {
     min-width: 0px !important;
 } */
 
-.chatentry_chatSubmitButton_1IEiK {
+._1IEiKQnjHpIv-m601y6hvP {
     min-height: 35px !important;
     min-width: 35px !important;
     border: none !important;
     border-radius: 4px !important;
 }
     
-.chatentry_chatSubmitButton_1IEiK.chatentry_disabled_2GM2k {
+._1IEiKQnjHpIv-m601y6hvP._2GM2kkVRqL-SdkG4oQjUzY {
     background: none !important;
 }
 
-.chatentry_chatTextarea_pewyB {
+.pewyBQoFSgFWo_Ms99aRm {
     height: 25px !important;
     padding: 10px 4px 4px 8px !important;
 }
 
-form.chatentry_chatEntryControls_2gP0D {
+form._2gP0DqVyb1aEACymAe6if3 {
     border-radius: 4px !important;
     background: var(--darkergrey) !important;
     height: 40px !important;
@@ -69,15 +69,13 @@ form.chatentry_chatEntryControls_2gP0D {
     background: var(--color-dark) !important;
 }
 
-.chatentry_chatEntryActionsGroup_3grea{
+._3grea2u6WuuGLHj9gJFmzY{
     box-shadow: none !important;
     padding: 0 !important;
     background-color: transparent !important;
 }
 
-button.chatentry_chatSubmitButton_1IEiK.chatentry_EmoticonPickerButton_K-lPM.Focusable, 
-.chatentry_chatSubmitButton_1IEiK.chatentry_EmbedButton_24xNx,
-button.VoiceToggle {
+button._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt.Focusable, ._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg, button.VoiceToggle {
     background: var(--darkergrey);
     min-height: 40px !important;
     min-width: 40px !important;

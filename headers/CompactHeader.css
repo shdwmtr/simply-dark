@@ -1,19 +1,19 @@
 	
-.steamdesktop_TitleBar_39oUC {
+._39oUCO1OuizVPwcnnv88no {
     height: 40px !important;
 }
-.steamdesktop_TitleBar_39oUC .steamdesktop_RootMenuBar_3s0lk {
+._39oUCO1OuizVPwcnnv88no ._3s0lkohH8wU2do0K1il28Y {
     margin-top: 0px !important;
 }
 
-.supernav_Arrow_25lBL {
+._25lBLzuVeYAUG279up4xP8 {
     color: #dcdedf !important;
 }
-.rootmenu_RootMenuButton_2UyOB {
+._2UyOBeiSdBayaFdRa39N2O {
     /* padding: 0px 0px 4px !important; */
 }
 
-.steamdesktop_SuperNavBar_3Z3oh {
+._3Z3ohQ8-1NKnCZkbS6fvy {
     /* height: 0px !important; */
     /* min-height: 0px !important; */
     /* padding-left: 40px; */
@@ -23,11 +23,11 @@
     padding-left: 0px;
 }
 
-.steamdesktop_TitleBar_39oUC {
+._39oUCO1OuizVPwcnnv88no {
     background: var(--color-darker) !important;
 }
 
-.steamdesktop_TitleBar_39oUC .steamdesktop_TitleBarControls_1-9si {
+._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {
     position: fixed !important;
     /* top: 35px !important; */
     right: 90px !important;
@@ -35,11 +35,11 @@
     top: 3px;
 }
 
-[class*="rootmenu_SteamButton_"] {
+.bSKGlAJG2UVWTsntEJY2v {
     font-size: 0px;
 }
 
-[class*="bottombar_BottomBarContainer"] {
+._1_yS5UP7el0aN4vntx3dx {
     padding: 0 !important;
     position: absolute !important;
     --steam-control-width: 242px !important;
@@ -47,7 +47,7 @@
     top: 8px !important;
 }
 
-[class*="bottombar_BottomBar_"] {
+._3vCzSrrXZzZjVJFZNg9SGu {
     width: fit-content !important;
     box-shadow: none !important;
     background: none !important;
@@ -56,9 +56,6 @@
     -webkit-app-region: no-drag;
 }
 
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2),
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(3),
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(3) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(4),
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(3) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(4) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(5)  {
+._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2), ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3), ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(4), ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(4) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(5)  {
     opacity: 0;
 }

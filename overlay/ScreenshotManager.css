@@ -1,13 +1,13 @@
 /* Set default window colors on the Overlay */
-.steamdesktopoverlay_OverlayPopup_C9tvu {
+.C9tvuqqEXGcrkcAtHrQ_R {
     background: radial-gradient(155.42% 100% at 0% 0%, var(--darkergrey) 0 0%, var(--color-darker) 100%) !important;
 }
 
-.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma {
+._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk {
     background: var(--color-light) !important;
 }
 
-.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma.screenshotmanagerdialog_Disabled_2DImO {
+._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk._2DImOBZViQSVUAGzChzYs7 {
     background: #252525 !important;
 }
 
@@ -21,6 +21,6 @@ button.DialogButton {
 }
 
 /* No Screenshots Modal Dialog */
-.screenshotmanagerdialog_ExplainerBox_2lrrN {
+._2lrrNsbFXBpMmd7sl1W8zv {
     background: var(--color-dark) !important;
 }

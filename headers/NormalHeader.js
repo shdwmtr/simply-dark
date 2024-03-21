@@ -3,9 +3,9 @@ new MutationObserver((mutations) => {
 	mutations.forEach(function(mutation) {
 		mutation.addedNodes.forEach(function(addedNode) {
 			//looking for steamdesktop_OuterFrame_3mz8w which is the parent of titlebarcontrols_TitleBarControls_
-			if (addedNode.classList && addedNode.classList.contains('steamdesktop_OuterFrame_3mz8w')) {
-				const title_bar_controls = document.querySelector('[class*="titlebarcontrols_TitleBarControls_"]')
-				const bottom_bar_controls = document.querySelector('[class*="bottombar_BottomBarContainer_"]')	
+			if (addedNode.classList && addedNode.classList.contains('_3mz8wQ6Q44B8P7pzPP4Iyw')) {
+				const title_bar_controls = document.querySelector('._3cykd-VfN_xBxf3Qxriccm')
+				const bottom_bar_controls = document.querySelector('._1_yS5UP7el0aN4vntx3dx')	
 				//titlebar observer
 				new MutationObserver((mutationsList) => {
 					for (const _ of mutationsList) {

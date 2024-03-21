@@ -1,26 +1,26 @@
-.steamdesktop_TitleBar_39oUC .steamdesktop_TitleBarControls_1-9si {	
+._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {	
     position: fixed !important;	
     top: 35px !important;	
     right: 0 !important;	
 }	
 
-.steamdesktop_TitleBar_39oUC {	
+._39oUCO1OuizVPwcnnv88no {	
     background: var(--color-dark) !important;	
 }
 
-.steamdesktop_SuperNavBar_3Z3oh {	
+._3Z3ohQ8-1NKnCZkbS6fvy {	
     height: 37px !important; 	
     min-height: 37px !important;	
 }
 
-.supernav_Arrow_25lBL {	
+._25lBLzuVeYAUG279up4xP8 {	
     color: #8b929a !important;	
 }	
-.rootmenu_RootMenuButton_2UyOB {	
+._2UyOBeiSdBayaFdRa39N2O {	
     padding: 0px 0px 4px !important;	
 }
 
-[class*="bottombar_BottomBarContainer"] {	
+._1_yS5UP7el0aN4vntx3dx {	
     padding: 0 !important;	
     position: absolute !important;	
     --steam-control-width: 242px !important;	
@@ -28,7 +28,7 @@
     top: 40px !important;	
 }
 
-[class*="bottombar_BottomBar_"] {
+._3vCzSrrXZzZjVJFZNg9SGu {
     width: fit-content !important;
     box-shadow: none !important;
     background: none !important;
@@ -36,19 +36,16 @@
     flex: 0 !important;
 }
 
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2),
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(3),
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(3) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(4),
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(1):hover + [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(3) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(4) + [class*="rootmenu_RootMenuButton_"]:nth-of-type(5)  {
+._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2), ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3), ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(4), ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1):hover + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(4) + ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(5)  {
     opacity: 1;
 }
 
 /* This allows for hover to work on this element.*/
 /* Although this ruins dragging for the far-left where the menu is, it should be fine.*/
-[class*="steamdesktop_RootMenuBar_"]{
+._3s0lkohH8wU2do0K1il28Y{
     -webkit-app-region: no-drag;
 }
 
-[class*="steamdesktop_RootMenuBar_"]:hover > div {
+._3s0lkohH8wU2do0K1il28Y:hover > div {
     opacity: 1 !important;
 } /* - Maple */

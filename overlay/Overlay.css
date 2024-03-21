@@ -1,7 +1,5 @@
 
 /* Overlay Button Colors */
-.steamdesktopoverlay_ToolbarContainer_3OzkV .steamdesktopoverlay_Toolbar_fbu3l .steamdesktopoverlay_ToolbarButton_3ZLaT,
-.steamdesktopoverlay_TopSection_fi6UD .steamdesktopoverlay_BackToGame_2LJMR .steamdesktopoverlay_BackToGameBtn_mh8m9,
-.steamdesktopoverlay_TopSection_fi6UD .steamdesktopoverlay_ExitGameBtn_Boygo {
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L, .fi6UDkxJq66MLo2z9wabQ ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc, .fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3 {
     background: var(--darkergrey) !important;
 }
