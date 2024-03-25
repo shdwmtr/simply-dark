@@ -5,6 +5,12 @@
             "ToolTip": "Use a more compact header bar on Steam (everything is on 1 row)",
             "Type": "CheckBox",
             "Value": false
+        },
+        {
+            "Name": "Avatar Frames",
+            "ToolTip": "Enable avatar frames in the friends list",
+            "Type": "CheckBox",
+            "Value": false
         }
     ],
     "GlobalsColors": [
@@ -269,15 +275,26 @@
         {
             "MatchRegexString": "^Steam$",
             "Statement": {
+                "If": "Compacted Header",
                 "Equals": true,
                 "False": {
                     "TargetCss": "headers/NormalHeader.css",
                     "TargetJs": "headers/NormalHeader.js"
                 },
-                "If": "Compacted Header",
                 "True": {
                     "TargetCss": "headers/CompactHeader.css",
                     "TargetJs": "headers/CompactHeader.js"
+                }
+            },
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "^Friends",
+            "Statement": {
+                "If": "Avatar Frames",
+                "Equals": true,
+                "True": {
+                    "TargetCss": "config/AvatarFrames.css"
                 }
             },
             "TargetCss": "Steam.css"

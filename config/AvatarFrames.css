@@ -1,0 +1,10 @@
+div > img._338kJp62vHY5iDbsraaiKD, div > ._1YGAHSfGavQI6MODJq-pJB ._3atbNcPD1_nRVTjOvryjWe{
+    display: block !important;
+}
+
+._1YGAHSfGavQI6MODJq-pJB:has(._3atbNcPD1_nRVTjOvryjWe) img{
+    border: none !important;
+    border-radius: 0 !important;
+    width: calc(100% + 1px) !important;
+    height: calc(100% + 1px) !important;
+} 
