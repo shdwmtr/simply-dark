@@ -124,7 +124,7 @@ img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
     background: var(--color-dark) !important;
 }
 
-._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7.gamelistsearchbar_Visible_ .Woh0kBQCmatzC1daBX9i6 {
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_ .Woh0kBQCmatzC1daBX9i6 {
     border-radius: 7px !important;
 }
 
@@ -372,7 +372,7 @@ img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
 }
 
 /* Friends List */
-[class*="friendListHeaderContainer"] [class*="titleBarContainer"] {
+.friendListHeaderContainer .titleBarContainer {
     background: var(--color-darker) !important;
 }
 
@@ -380,7 +380,7 @@ img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
     background: var(--color-dark) !important;
 }
 
-[class*="activeTab"] {
+.activeTab {
     background: var(--color-light) !important;
 }
 
@@ -684,4 +684,8 @@ EG: "Play next" category names & "Sort by" dropdown */
 .DesktopUI ._2qyBZV8YvxstXuSKiYDF19 ._1tiuYeMmTc9DMG4mhgaQ5w._DialogInputContainer ._1R-DVEa2yqX0no8BYLtn9N:hover{
     background: var(--color-dark) !important;
     color: #fff !important;
+}
+
+.settings_item.selected {
+    background: var(--color-light) !important;
 }

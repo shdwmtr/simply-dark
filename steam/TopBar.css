@@ -1,6 +1,5 @@
 /* got this from laser */
 
-
 ._3yD46y5pd3zOGR7CzKs0mC div:nth-of-type(2) {
     display: none !important;
 }
@@ -40,7 +39,8 @@
     margin: 0 !important;
 }
 
-._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D ._1sCy-pm412Smb0wJx0W-4, ._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D ._1sCy-pm412Smb0wJx0W-4, ._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y,
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D ._2EQ7ghgqIdjKv9jsQC0Zq9, ._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
     padding-top: 0 !important;
 }
 
@@ -48,7 +48,9 @@
     padding: 0px 0px 2px 0px !important;
 }
 
-._3vCzSrrXZzZjVJFZNg9SGu ._2iJsgdTIX9Tj23rWnB7Q-c, ._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D ._21vPQjHoo0uwud5lfCD_x- {
+
+._3vCzSrrXZzZjVJFZNg9SGu ._2iJsgdTIX9Tj23rWnB7Q-c, ._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D ._21vPQjHoo0uwud5lfCD_x-, 
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D .IconBevel {
     display: none !important; 
 }
 
@@ -86,10 +88,17 @@
     opacity: 1 !important;
 }
 
-/* Check for steam client update */
-._1_yS5UP7el0aN4vntx3dx > div:first-of-type{
+._1_yS5UP7el0aN4vntx3dx > div:first-of-type {
     position: fixed;
     width: 700px;
     left: 50%;
     transform: translateX(-50%);
+
 }
+
+._3GaHEQJW9B1Rlt0Ddz3E8D {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
