@@ -5,6 +5,12 @@
             "ToolTip": "Use a more compact header bar on Steam (everything is on 1 row)",
             "Type": "CheckBox",
             "Value": false
+        },
+        {
+            "Name": "Wallet Visibility",
+            "ToolTip": "Hide wallet amount from user menu",
+            "Type": "CheckBox",
+            "Value": false
         }
     ],
     "GlobalsColors": [
@@ -268,18 +274,28 @@
         },
         {
             "MatchRegexString": "^Steam$",
-            "Statement": {
-                "Equals": true,
-                "False": {
-                    "TargetCss": "headers/NormalHeader.css",
-                    "TargetJs": "headers/NormalHeader.js"
+            "Statement": [
+                {
+                    "Equals": true,
+                    "False": {
+                        "TargetCss": "headers/NormalHeader.css",
+                        "TargetJs": "headers/NormalHeader.js"
+                    },
+                    "If": "Compacted Header",
+                    "True": {
+                        "TargetCss": "headers/CompactHeader.css",
+                        "TargetJs": "headers/CompactHeader.js"
+                    }
                 },
-                "If": "Compacted Header",
-                "True": {
-                    "TargetCss": "headers/CompactHeader.css",
-                    "TargetJs": "headers/CompactHeader.js"
+                {
+                    "Equals": true,
+                    "False": {},
+                    "If": "Wallet Visibility",
+                    "True": {
+                        "TargetCss": "steam/WalletVisibility.css"
+                    }
                 }
-            },
+            ],
             "TargetCss": "Steam.css"
         },
         {
@@ -300,6 +316,13 @@
         },
         {
             "MatchRegexString": ".*Menu$",
+            "Statement": {
+                "Equals": true,
+                "If": "Wallet Visibility",
+                "True": {
+                    "TargetCss": "steam/WalletVisibility.css"
+                }
+            },
             "TargetCss": "Steam.css"
         },
         {
@@ -357,17 +380,26 @@
     ],
     "Steam-WebKit": "webkit/webkit.css",
     "UseDefaultPatches": true,
-    "name": "Simple Dark.",
     "author": "ShadowMonster",
     "description": "A sleek and elegant theme that brings a darker, more immersive experience to your Steam client.",
     "discord_support": {
         "inviteCodeExcludingLink": "NcNMP6r2Cw"
+    },
+    "git": {
+        "commit": "b06a85335249d98bd79ccebaf41b53ffa083dc88",
+        "date": "2024-03-21T20:52:28Z",
+        "download": "https://codeload.github.com/ShadowMonster99/Simply-Dark/zip/refs/heads/main",
+        "message": "Steam Family Beta Popup",
+        "url": "https://github.com/ShadowMonster99/Simply-Dark/commit/b06a85335249d98bd79ccebaf41b53ffa083dc88"
     },
     "github": {
         "owner": "ShadowMonster99",
         "repo_name": "Simply-Dark"
     },
     "header_image": "https://i.imgur.com/uXtPTnr.png",
+    "name": "Simple Dark.",
+    "native-name": "Simply-Dark",
+    "remote": false,
     "splash_image": "https://i.imgur.com/uXtPTnr.png",
     "tags": [
         "Minimal",
@@ -375,5 +407,6 @@
         "Sleek",
         "Compact"
     ],
+    "update_required": false,
     "version": "1.2.5"
 }
