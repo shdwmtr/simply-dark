@@ -385,21 +385,12 @@
     "discord_support": {
         "inviteCodeExcludingLink": "NcNMP6r2Cw"
     },
-    "git": {
-        "commit": "b06a85335249d98bd79ccebaf41b53ffa083dc88",
-        "date": "2024-03-21T20:52:28Z",
-        "download": "https://codeload.github.com/ShadowMonster99/Simply-Dark/zip/refs/heads/main",
-        "message": "Steam Family Beta Popup",
-        "url": "https://github.com/ShadowMonster99/Simply-Dark/commit/b06a85335249d98bd79ccebaf41b53ffa083dc88"
-    },
     "github": {
         "owner": "ShadowMonster99",
         "repo_name": "Simply-Dark"
     },
     "header_image": "https://i.imgur.com/uXtPTnr.png",
     "name": "Simple Dark.",
-    "native-name": "Simply-Dark",
-    "remote": false,
     "splash_image": "https://i.imgur.com/uXtPTnr.png",
     "tags": [
         "Minimal",
@@ -407,6 +398,5 @@
         "Sleek",
         "Compact"
     ],
-    "update_required": false,
     "version": "1.2.5"
 }
