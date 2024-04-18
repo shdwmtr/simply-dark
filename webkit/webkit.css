@@ -13,7 +13,7 @@
     --border35: 35px; /* default 35px */
     --border4: 40px; /* default 40px */
     --border5: 50px; /* default 50px */
-    --border8: 80px; /* default 80px */
+    --border8: 0px; /* default 80px */
     --border50: 50%; /* default 50% */
 }
 
