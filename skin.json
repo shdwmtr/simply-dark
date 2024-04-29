@@ -58,7 +58,7 @@
             "TargetCss": "steam/friends/FriendsList.css"
         },
         {
-            "MatchRegexString": "ModalDialogPopup",
+            "MatchRegexString": ".ModalDialogPopup",
             "TargetCss": "Steam.css"
         },
         {
