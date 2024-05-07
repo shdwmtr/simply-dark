@@ -12,10 +12,10 @@
     --border1: 10px; /* default 10px */
     --border2: 20px; /* default 20px */
     --border25: 25px; /* default 25px */
-    --border35: 35px; /* default 35px */
-    --border4: 40px; /* default 40px */
-    --border5: 50px; /* default 50px */
-    --border8: 80px; /* default 80px */
+    --border35: 0px; /* default 35px */
+    --border4: 0px; /* default 40px */
+    --border5: 0px; /* default 50px */
+    --border8: 0px; /* default 80px */
     --border50: 50%; /* default 50% */
 }
 
