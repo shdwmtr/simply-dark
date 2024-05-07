@@ -266,7 +266,7 @@
             "HexColorCode": "#ffff00",
             "OriginalColorCode": "#FFFF00"
         }
-    },
+    ],
     "Patches": [
         {
             "MatchRegexString": "SteamBrowser_Find",
