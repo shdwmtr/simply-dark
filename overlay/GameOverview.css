@@ -1,20 +1,18 @@
 /* Set default window colors on the Overlay */
-.steamdesktopoverlay_OverlayPopup_C9tvu, .steamdesktopoverlay_GameOverview_27m9Q {
+.C9tvuqqEXGcrkcAtHrQ_R, ._27m9Qbg4ShilOgwvYZWV8l {
     background: radial-gradient(155.42% 100% at 0% 0%, var(--darkergrey) 0 0%, var(--color-darker) 100%) !important;
 }
 
 /* Overview Headers */
-.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GameOverviewSectionHeader_2wBK7 {
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL {
     background: var(--color-light) !important;
 }
 
 /* Item Colors */
-.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GameOverviewSectionChildren_17TJ4.steamdesktopoverlay_ContainChildren_3WMiI,
-.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GuideListItem_2OwqX,
-.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_RecentNewsItem_3eNE5  {
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._17TJ4vdOZjHL-bjbRUKzxp._3WMiI5PUctRy9VuvX4r5hj, ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2OwqXw1nhBL430bsYTeEr-, ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0  {
     background: var(--color-dark) !important;
 }
 
-.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_PlayersSection_2fYjC .steamdesktopoverlay_ViewPlayersBtn_2NLwf {
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2fYjCJSwdJxdjbi7ysISdL ._2NLwfYHr9KUJZ7LD9nkyva {
     background: var(--color-light) !important;
 }

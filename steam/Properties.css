@@ -1,17 +1,17 @@
 /* Settings Panel */
-[class*="pagedsettings_PagedSettingsDialog_PageContent_"] {
+._1I3NifxqTHCkE-2DeritAs {
     background: var(--color-dark) !important;
 }
 
-[class*="pagedsettings_PagedSettingsDialog_PageListColumn_"] {
+.RTicBCbDcEGkjsbmWzA8C {
     background: var(--color-darker) !important;
 }
 
-[class*="pagedsettings_PagedSettingsDialog_PageListItem_"][class*="pagedsettings_Active_"] {
+.bkfjn0yka2uHNqEvWZaTJ.Myra7iGjzCdMPzitboVfh {
     background: var(--color-light) !important;
 }
 
-[class*="appproperties_AppProperties_"] [class*="appproperties_Checkbox_"] { 
+._1FyBL6obxHQ2Z2CsaV2Gbz ._2V2nc3qHRjg_726Zc2HT28 { 
     background: var(--color-light) !important;
 }
 
@@ -20,11 +20,11 @@
 }
 
 /* DLC page */
-[class*="appproperties_AppProperties_"] .DialogBody [class*="appproperties_DlcTopRow_"] [class*="appproperties_ViewMore_"] {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .ZII4C3WPvs65P3yvAtV69 ._3jITh4rujugtH2LfgXhuLE {
     background: var(--color-light) !important;
 }
 
-[class*="appproperties_AppProperties_"] .DialogBody [class*="appproperties_DlcGrid_"] [class*="appproperties_DlcHeader_"] {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._1SKB0Xc7OpWlOlr-wSi8ho {
     background: var(--color-light) !important;
 }
 
@@ -32,18 +32,18 @@
     background: var(--color-darker) !important;
 }
 
-[class*="appproperties_AppProperties_"] .DialogBody [class*="appproperties_DlcGrid_"] [class*="appproperties_Install_"] {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._2nXS1OQvhODwzoAc75AEKR {
     margin: none !important;
     background: var(--color-darker) !important;
 }
 
-[class*="appproperties_AppProperties_"] .DialogBody [class*="appproperties_DlcGrid_"] {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
     background: var(--color-darker) !important;
     border-radius: 3px !important;
 }
 
 /* Local Files */
-[class*="appproperties_AppProperties_"] .DialogBody [class*="appproperties_BrowseDiskRow_"] [class*="appproperties_BrowseDiskButton_"] {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .vgVsCDEci0IK6JY9IrT9w .appproperties_BrowseDiskButton_ {
     background: var(--color-light) !important;
 }
 
@@ -51,28 +51,32 @@ button.DialogButton {
     background: var(--color-light) !important;
 }
 
-[class*="appproperties_AppProperties_"] .DialogBody [class*="appproperties_WorkshopGrid_"] {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .pht3SaejGcAJEjNG8d6nd {
     background: var(--color-darker) !important;
     border-radius: 3px !important;
 }
 
-[class*="appdetailsprimarylinkssection_Anchor_"] [class*="appdetailsprimarylinkssection_Link_"]:hover {
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd .iWdskI4in7pZbS0ETm5QQ ._1N6t5cU9mG4040gmQUU6-U,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd .iWdskI4in7pZbS0ETm5QQ ._1N6t5cU9mG4040gmQUU6-U  .Focusable > div{
+    background: var(--color-darker) !important;
+}
+
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
     background: var(--color-light) !important;
 }
 
-a[class*="appdetailsbroadcastsection_ViewBroadcastOnWeb_"]:hover {
+a._1Z3B4iGT48X6pYKxjbVdBO:hover {
     background: var(--color-light) !important;
 }
 
-[class*="gamelistentry_Container_"]:hover {
+._2-O4ZG0KrnSrzISHBKctFQ:hover {
     background: var(--color-dark) !important;
 }
-[class*="gamelistentry_Container_"][class*="gamelistentry_Selected_"]:hover {
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9:hover {
     background: var(--color-dark) !important;
 }
 
-[class*="gamelistentry_Selected_"][class*="gamelistentry_Container_"]:hover, 
-[class*="gamelistentry_Selected_"][class*="gamelistentry_Container_"][class*="gamelistentry_HoverOverlay_"], 
-[class*="gamelistentry_Selected_"][class*="gamelistentry_Container_"]:hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z :hover {
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {
     background: var(--color-light) !important;
 }

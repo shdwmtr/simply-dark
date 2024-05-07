@@ -1,59 +1,59 @@
-.steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_Resizable_290hv.GameOverview {
+.C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow._290hvyptb3mP0rOSaapjgZ.GameOverview {
     background: var(--color-dark) !important;
 }
 
-.steamdesktopoverlay_GameOverview_27m9Q {
+._27m9Qbg4ShilOgwvYZWV8l {
     background: var(--color-dark) !important;
 }
 
-.steamdesktopoverlay_GameOverviewSectionHeader_2wBK7 {
+._2wBK7MqJSrj6QCxf3357yL {
     background: var(--color-darker) !important;
 }
 
-.steamdesktopoverlay_GameOverviewSectionChildren_17TJ4.steamdesktopoverlay_ContainChildren_3WMiI {
+._17TJ4vdOZjHL-bjbRUKzxp._3WMiI5PUctRy9VuvX4r5hj {
     background: var(--color-light) !important;
 }
 
-.steamdesktopoverlay_GuideListItem_2OwqX {
+._2OwqXw1nhBL430bsYTeEr- {
     background: var(--color-light) !important;
 }
 
-.desktopbrowser_URLBar_26Gmf {
+._26Gmfe09NRsnF7eprTZYdY {
     background: var(--color-darker) !important;
 }
 
-.steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_Resizable_290hv[class*="OverlayBrowser_"] {
+.C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow._290hvyptb3mP0rOSaapjgZ.OverlayBrowser_Guides {
     background: var(--color-darker) !important;
 }
 
-.desktopbrowser_BrowserViewHost_22LPP {
+._22LPPg9PMLlPRAP1u7N5mb {
     background: var(--color-dark) !important;
 }
 
-.steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_Resizable_290hv.OverlayBrowser_Browser {
+.C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow._290hvyptb3mP0rOSaapjgZ.OverlayBrowser_Browser {
     background: var(--color-darker) !important;
 }
 
-.desktopbrowser_BrowserTabs_aqvbk {
+.aqvbkhC1ejt4s8QvWA-c5 {
     background: var(--darkergrey) !important;
     border-bottom: 1px solid #272727 !important;
 }
 
-.desktopbrowser_BrowserTab_TSlxC.desktopbrowser_Active_1W4bb {
+.TSlxCkeUMGwzmg21_WU8-._1W4bbifjEN3KdqKEhpmies {
     background: var(--color-light) !important;
     border: none !important;
 }
 
-.desktopbrowser_TabTitle_2RI6o {
+._2RI6oQrDKUNzBqhIk4zI {
     font-size: 13px !important;
 }
 
-.desktopbrowser_BrowserTabs_aqvbk .desktopbrowser_BrowserTab_TSlxC {
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- {
     background: none !important; 
     border: none !important;
     border-radius: 3px !important;
 }
 
-.desktopbrowser_BrowserTabs_aqvbk .desktopbrowser_BrowserTab_TSlxC:hover {
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-:hover {
     background: var(--color-dark) !important;
 }
