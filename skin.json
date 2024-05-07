@@ -274,10 +274,6 @@
         },
         {
             "MatchRegexString": "^Steam$",
-            "TargetCss": "Steam.css"
-        },
-        {
-            "MatchRegexString": "^Friends",
             "Statement": [
                 {
                     "Equals": true,
@@ -307,11 +303,11 @@
             "TargetCss": "Steam.css"
         },
         {
-            "MatchRegexString": ".friendsui-container",
+            "MatchRegexString": "friendsui-container",
             "TargetCss": "steam/friends/FriendsList.css"
         },
         {
-            "MatchRegexString": ".ModalDialogPopup",
+            "MatchRegexString": "ModalDialogPopup",
             "TargetCss": "Steam.css"
         },
         {
