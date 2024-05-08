@@ -292,7 +292,7 @@
                     "False": {},
                     "If": "Wallet Visibility",
                     "True": {
-                        "TargetCss": "steam/WalletVisibility.css"
+                        "TargetCss": "config/WalletVisibility.css"
                     }
                 }
             ],
@@ -320,7 +320,7 @@
                 "Equals": true,
                 "If": "Wallet Visibility",
                 "True": {
-                    "TargetCss": "steam/WalletVisibility.css"
+                    "TargetCss": "config/WalletVisibility.css"
                 }
             },
             "TargetCss": "Steam.css"
