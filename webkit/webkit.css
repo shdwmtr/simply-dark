@@ -16,7 +16,7 @@
     --border4: 0px; /* default 40px */
     --border5: 0px; /* default 50px */
     --border8: 0px; /* default 80px */
-    --border50: 50%; /* default 50% */
+    --border50: 0px; /* default 50% */
 }
 
 /* Scrollbar */

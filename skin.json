@@ -316,13 +316,6 @@
         },
         {
             "MatchRegexString": ".*Menu$",
-            "Statement": {
-                "Equals": true,
-                "If": "Wallet Visibility",
-                "True": {
-                    "TargetCss": "config/WalletVisibility.css"
-                }
-            },
             "TargetCss": "Steam.css"
         },
         {
@@ -376,6 +369,17 @@
         {
             "MatchRegexString": "OverlayBrowser_Browser",
             "TargetCss": "overlay/Browser.css"
+        },
+        {
+            "MatchRegexString": "^Account.",
+            "Statement": {
+                "If": "Wallet Visibility",
+                "Equals": true,
+                "True": {
+                    "TargetCss": "config/WalletVisibility.css"
+                },
+                "False": {}
+            }
         }
     ],
     "Steam-WebKit": "webkit/webkit.css",
