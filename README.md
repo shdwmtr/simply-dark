@@ -20,6 +20,8 @@ The theme itself does not require anything being built, but to edit the theme yo
 This allows you to open the inspector on the Steam window, which allows you to edit CSS classes that you will forward to the theme
 
 ## Contributors
-- [MapleAtMorning](https://github.com/MapleAtMorning) for maintaining the theme.
+- [ShadowMonster99](https://github.com/ShadowMonster99) (author, developer)
+- [MapleAtMorning](https://github.com/MapleAtMorning) (maintaining).
+- [clawdius](https://github.com/clawdius), [Preshyon](https://github.com/madmaxgrey) (bug fixing).
    
 Contributing is encouraged. Anyone can create a pull request if it's deemed useful.
