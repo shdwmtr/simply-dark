@@ -11,6 +11,12 @@
             "ToolTip": "Hide wallet amount from user menu",
             "Type": "CheckBox",
             "Value": false
+        },
+        {
+            "Name": "URL Visibility",
+            "ToolTip": "Hide URL bar when browsing inside steam",
+            "Type": "CheckBox",
+            "Value": false
         }
     ],
     "GlobalsColors": [
@@ -293,6 +299,14 @@
                     "If": "Wallet Visibility",
                     "True": {
                         "TargetCss": "config/WalletVisibility.css"
+                    }
+                },
+                {
+                    "Equals": true,
+                    "False": {},
+                    "If": "URL Visibility",
+                    "True": {
+                        "TargetCss": "config/URLBarVisibility.css"
                     }
                 }
             ],
