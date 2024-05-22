@@ -17,6 +17,12 @@
             "ToolTip": "Hide URL bar when browsing inside steam",
             "Type": "CheckBox",
             "Value": false
+        },
+        {
+            "Name": "What's New Visibility",
+            "ToolTip": "Hide 'Whats New' on library page",
+            "Type": "CheckBox",
+            "Value": false
         }
     ],
     "GlobalsColors": [
@@ -307,6 +313,14 @@
                     "If": "URL Visibility",
                     "True": {
                         "TargetCss": "config/URLBarVisibility.css"
+                    }
+                },
+                {
+                    "Equals": true,
+                    "False": {},
+                    "If": "What's New Visibility",
+                    "True": {
+                        "TargetCss": "config/WhatsNewVisibility.css"
                     }
                 }
             ],
