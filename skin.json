@@ -332,7 +332,8 @@
         },
         {
             "MatchRegexString": "friendsui-container",
-            "TargetCss": "steam/friends/FriendsList.css"
+            "TargetCss": "steam/friends/FriendsList.css",
+            "TargetJs": "steam/friends/FriendsList.js"
         },
         {
             "MatchRegexString": "ModalDialogPopup",
