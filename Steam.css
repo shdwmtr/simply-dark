@@ -690,3 +690,13 @@ EG: "Play next" category names & "Sort by" dropdown */
 .settings_item.selected {
     background: var(--color-light) !important;
 }
+
+/* 'Add non-steam game' pop-up */
+
+._3m0MnUo45wjLOfNLpZ-3KH {
+    background-color: var(--color-dark) !important;
+}
+
+._1e6tjguQEHdYIehM9aRmO5 {
+    background-color: var(--color-darker) !important;
+}
