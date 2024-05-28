@@ -457,8 +457,10 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .help_purchase_detail_box{background-color:var(--darkgrey)!important}
 .profile_small_header_bg{background-image:none!important}
 .btn_grey_black{border-radius:var(--border0)!important}
-.games_list_tabs{border-radius:var(--border0)!important}
-.games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important}
+.games_list_tabs{border-radius:var(--border0)!important;background: var(--color-darker) !important;}
+.games_list_tabs_ctn.responsive_hidden {background: var(--color-darker)}
+.games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important;}
+#tabcontent_inventory {background: var(--color-darker) !important; border: none !important}
 .filter_ctn.inventory_filters #filter_control{border-radius:var(--border0)!important;background:var(--black-ish)!important;border:1px solid var(--black)!important}
 .friends_header_bg{background:0 0!important}
 .friends_search_text_box,.groups_search_text_box{border-radius:var(--border0)!important;background:0 0!important;background-color:var(--lightgrey)!important;border:1px solid rgba(30,30,31,.52)!important}
@@ -830,12 +832,13 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .avatarIcon_48_offline{border-radius:var(--border4)!important}
 .avatarIcon_48_ingame{border-radius:var(--border4)!important}
 #NoItemsContainer{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important;border:0!important}
-.view_inventory_page.inventory_msg_ctn{border-radius:var(--border0)!important}
+.view_inventory_page.inventory_msg_ctn{border-radius:var(--border0)!important; background: var(--color-darker);}
+.view_inventory_page {background: var(--color-darkest) !important;}
 .primary_panel_border{background:0 0!important}
 .rightSectionHolder{background:0 0!important;border-radius:var(--border0)!important}
 .games_list_tabs{border:0!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;-moz-border-radius-topleft:4px!important;-moz-border-radius-topright:4px!important}
-.games_list_tab.active{margin-left:1px!important;background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
-.games_list_tab,a.games_list_tab{padding:0 12px!important;border-radius:var(--border0)!important;border-top:0!important}
+.games_list_tab.active{margin-left:1px!important;border-radius:var(--border0)!important;background: var(--color-light) !important; box-shadow: none !important;}
+.games_list_tab,a.games_list_tab{padding:0 12px!important;border-radius:var(--border0)!important;border-top:0!important;background: var(--color-dark) !important;color: #ebebeb}
 .games_list_tab_separator{width:0!important;background-color:rgba(0,0,0,0)!important;background-repeat:no-repeat}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important;margin-left:1px!important}
 .filter_ctn.inventory_filters #filter_control{border-radius:var(--border0)!important;border:0!important;background-color:rgba(0,0,0,.4)!important}
