@@ -19,6 +19,39 @@
     background: var(--color-light) !important; 
 }
 
+._3qEgQJqeb0zyM12KXq64Or, .BRmrC-jnwpXqye4oYB21C button.DialogButton {
+    color: var(--brightblue) !important;
+}
+
+._2JtC3JSLKaOtdpAVEACsG1::before, .Mq25Nap224hVdTdtXSsnq::before {
+    background: var(--brightblue) !important;
+}
+
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    fill: var(--brightblue) !important;
+}
+
+.DialogBody a {
+    color: var(--blu) !important;
+}
+
+.DialogHeader, .bkfjn0yka2uHNqEvWZaTJ.Myra7iGjzCdMPzitboVfh, .bkfjn0yka2uHNqEvWZaTJ.Myra7iGjzCdMPzitboVfh .U6HcKswXzjmWtFxbjxuz4 {
+    color: var(--white) !important;
+}
+
+.bkfjn0yka2uHNqEvWZaTJ, ._3b0U-QDD-uhFpw6xM716fw, .U6HcKswXzjmWtFxbjxuz4 {
+    color: var(--darkwhite) !important;
+}
+
+._3qIXY674NedSZNa-CXtNlt, ._2OJfkxlD3X9p8Ygu1vR7Lr {
+    color: var(--darkerwhite) !important;
+}
+
+.bkfjn0yka2uHNqEvWZaTJ:not(.Myra7iGjzCdMPzitboVfh):hover {
+    background-color: var(--color-dark) !important;
+    color: var(--white) !important;
+}
+
 /* DLC page */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .ZII4C3WPvs65P3yvAtV69 ._3jITh4rujugtH2LfgXhuLE {
     background: var(--color-light) !important;

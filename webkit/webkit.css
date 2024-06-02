@@ -98,7 +98,7 @@ body.v6 .page_content.browse_reviews{background:var(--darkgrey)!important}
 .capsule.headerv5,.capsule.headerv5 img{border-radius:var(--border0)!important}
 .detailBox .commentthread_comment:not(.hidden_post):hover,.group_comments .commentthread_comment:not(.hidden_post):hover,.profile_comment_area .commentthread_comment:not(.hidden_post):hover{border-radius:var(--border0)!important}
 .daily_deal .dailydeal_desc{font-size:11px!important;color:var(--lightblue)!important}
-.dailydeal_countdown.ttip{color:var(--lightblue)!important;background-color:var(--blue)!important;display:inline-block!important;font-size:10px!important;background:#ff7b00!important;line-height:13px!important;padding:0 4px!important;margin-top:4px!important;border-radius:var(--border0)!important}
+.dailydeal_countdown.ttip{color:var(--lightblue)!important;background-color:var(--blue)!important;display:inline-block!important;font-size:10px!important;background:var(--orange)!important;line-height:13px!important;padding:0 4px!important;margin-top:4px!important;border-radius:var(--border0)!important}
 img{border-radius:var(--border0)!important}
 .tab_item_discount .discount_pct,.tab_item_discount.no_discount .bundle_base_discount{border-radius:var(--border0)!important}
 .discount_block .discount_pct,.discount_pct{border-radius:var(--border0)!important}
@@ -544,7 +544,7 @@ body.v6 .wishlist_header h2{margin-top:2px!important}
 .btnv6_green_white_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--green)!important;background:rgba(121,153,5,1)!important}
 .btnv6_blue_blue_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--blue-er)!important;background:rgba(47,137,188,1)!important}
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:rgba(83,105,4,1)!important;color:var(--white)!important}
-.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#23678e!important;color:var(--white)!important}
+.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:var(--darkblue)!important;color:var(--white)!important}
 .btn_medium>span,input.btn_medium{padding:0 15px!important;line-height:30px!important}
 #rightContents .box{border-radius:var(--border0)!important;background:rgba(0,0,0,.2)!important}
 .review_list h1{border-bottom:none!important}
@@ -838,7 +838,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .rightSectionHolder{background:0 0!important;border-radius:var(--border0)!important}
 .games_list_tabs{border:0!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;-moz-border-radius-topleft:4px!important;-moz-border-radius-topright:4px!important}
 .games_list_tab.active{margin-left:1px!important;border-radius:var(--border0)!important;background: var(--color-light) !important; box-shadow: none !important;}
-.games_list_tab,a.games_list_tab{padding:0 12px!important;border-radius:var(--border0)!important;border-top:0!important;background: var(--color-dark) !important;color: #ebebeb}
+.games_list_tab,a.games_list_tab{padding:0 12px!important;border-radius:var(--border0)!important;border-top:0!important;background: var(--color-dark) !important;color: var(--white)}
 .games_list_tab_separator{width:0!important;background-color:rgba(0,0,0,0)!important;background-repeat:no-repeat}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important;margin-left:1px!important}
 .filter_ctn.inventory_filters #filter_control{border-radius:var(--border0)!important;border:0!important;background-color:rgba(0,0,0,.4)!important}
@@ -965,7 +965,7 @@ div.profile_page.has_profile_background{z-index:0!important}
 .top_new_releases_background{background-image:none!important;}
 
 [class*="messagelist_MessageListPage_"] {
-    background: #212121 !important;
+    background: var(--color-dark) !important;
 }
 
 [class*="image_Btn_"] {
@@ -985,11 +985,11 @@ body.responsive_page {
 }
 
 div#tab_filters {
-    background: #252525 !important;
+    background: var(--begrey) !important;
 }
 
 div#dropdown_sort {
-    background: #252525 !important;
+    background: var(--begrey) !important;
 }
 
 body.v6 .game_page_background {
@@ -1058,7 +1058,7 @@ div#home_gutter_recentlyviewed {
 }
 
 .html5_video_overlay .volume_slider .volume_handle{
-    background: #fff !important;
+    background: var(--white) !important;
     height: 15px !important;
     top: 50% !important;
     border-radius: var(--border1) !important;
@@ -1110,7 +1110,7 @@ div#home_gutter_recentlyviewed {
 }
 
 .html5_video_overlay .progress_bar{
-    background-color: #1a9fff !important;
+    background-color: var(--brightblue) !important;
 }
 
 .html5_video_overlay .progress_bar_wrapper{
@@ -1124,4 +1124,37 @@ div#home_gutter_recentlyviewed {
     background: #2e2e2fb0 !important;
     border-bottom-right-radius: var(--border1) !important;
     backdrop-filter: blur(3px) !important;
+}
+
+::selection {
+    background: var(--blue) !important;
+    color: var(--color-darkest) !important;
+}
+
+a, .store_header_btn_gray a, a.pulldown_desktop, .store_nav .tab > span, body.v6 h2, .content_hub_carousel_ctn .title, .store_main_capsule, .discount_block.no_discount .discount_final_price, .big_button, .home_tab.active .tab_content, .home_content.single h1 {
+    color: var(--white) !important;
+}
+
+body.v6, .tab_item_name, .store_capsule .title {
+    color: var(--darkwhite) !important;
+}
+
+body.v6 h2 .header_inline, .home_content.single, .home_page_content .more_content_desc {
+    color: var(--darkerwhite) !important;
+}
+
+a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home_page_content .more_content_title, body.v6 h2 a, .LoadingWrapper .LoadingText {
+    color: var(--blu) !important;
+}
+
+.LoadingWrapper .LoadingThrobber .Bar {
+    background-color: var(--blu) !important;
+}
+
+.home_tab .tab_content, .new_items_num, .new_items_text {
+    color: var(--blue) !important;
+}
+
+.spotlight_block .spotlight_content>h2, .spotlight_body {
+    color: var(--blue-er) !important;
 }
