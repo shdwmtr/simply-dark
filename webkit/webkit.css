@@ -1125,3 +1125,36 @@ div#home_gutter_recentlyviewed {
     border-bottom-right-radius: var(--border1) !important;
     backdrop-filter: blur(3px) !important;
 }
+
+::selection {
+    background: var(--blue) !important;
+    color: var(--color-darkest) !important;
+}
+
+a, .store_header_btn_gray a, a.pulldown_desktop, .store_nav .tab > span, body.v6 h2, .content_hub_carousel_ctn .title, .store_main_capsule, .discount_block.no_discount .discount_final_price, .big_button, .home_tab.active .tab_content, .home_content.single h1 {
+    color: var(--white) !important;
+}
+
+body.v6, .tab_item_name, .store_capsule .title {
+    color: var(--darkwhite) !important;
+}
+
+body.v6 h2 .header_inline, .home_content.single, .home_page_content .more_content_desc {
+    color: var(--darkerwhite) !important;
+}
+
+a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home_page_content .more_content_title, body.v6 h2 a, .LoadingWrapper .LoadingText {
+    color: var(--blu) !important;
+}
+
+.LoadingWrapper .LoadingThrobber .Bar {
+    background-color: var(--blu) !important;
+}
+
+.home_tab .tab_content, .new_items_num, .new_items_text {
+    color: var(--blue) !important;
+}
+
+.spotlight_block .spotlight_content>h2, .spotlight_body {
+    color: var(--blue-er) !important;
+}
