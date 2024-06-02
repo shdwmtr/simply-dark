@@ -6,7 +6,7 @@
 }
 
 .friend.quickAccessFriend .avatarHolder .avatar {
-    border: 1px solid #383c43 !important;
+    border: 1px solid var(--lightgrey) !important;
     border-radius: 6px !important;
 }
 
@@ -56,11 +56,11 @@ img._338kJp62vHY5iDbsraaiKD {
 
 /* color of the user status */
 .ingame.awayOrSnooze ._1k82NiWym4STegDGxRBHz2, .ingame ._1k82NiWym4STegDGxRBHz2, .ingame ._1k82NiWym4STegDGxRBHz2 a, .ingame ._1k82NiWym4STegDGxRBHz2 a:hover, .ingame ._1k82NiWym4STegDGxRBHz2 a:active, .ingame ._1k82NiWym4STegDGxRBHz2 a:visited {
-    color: #666 !important;
+    color: var(--darkerwhite) !important;
 }
 
 .ingame .r62qzcdJQ0qezZglOtiUX {
-    color: #89c604 !important;
+    color: var(--ingame) !important;
 }
 
 .friend.offline {
@@ -68,7 +68,7 @@ img._338kJp62vHY5iDbsraaiKD {
 }
 
 :not(.friendInviteContainer) .ingame .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-    fill: #89c604 !important;
+    fill: var(--ingame) !important;
 }
 
 .friend.awayOrSnooze .labelHolder{
@@ -122,7 +122,7 @@ img._338kJp62vHY5iDbsraaiKD {
     padding: 2px 0 0 10px !important;
     text-transform: none !important;
     font-weight: 400 !important;
-    color: #666 !important;
+    color: var(--darkerwhite) !important;
 }
 
 .chatRoomListContainer {

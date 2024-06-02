@@ -189,6 +189,12 @@
             "OriginalColorCode": "#67c1f5"
         },
         {
+            "ColorName": "--brightblue",
+            "Description": "Webkit",
+            "HexColorCode": "#1a9fff",
+            "OriginalColorCode": "#1a9fff"
+        },
+        {
             "ColorName": "--blue-ish",
             "Description": "Webkit",
             "HexColorCode": "#7cbef8",
