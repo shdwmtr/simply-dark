@@ -1,10 +1,14 @@
 <div align="center">
    
 # Simply, Dark.
-A break from Steam's new eye-straining theme
+A break from Steam's new eye-straining theme.
+
+If you enjoy this theme, please consider starring the project ⭐
+
 ![Steam Skin](https://i.imgur.com/uXtPTnr.png)
 
 </div>
+
 
 ## Installation
 1. Download the [Millennium](https://steambrew.app/). Follow the instructions provided to install the patcher.
