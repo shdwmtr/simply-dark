@@ -10,19 +10,19 @@
             "Name": "Wallet Visibility",
             "ToolTip": "Hide wallet amount from user menu",
             "Type": "CheckBox",
-            "Value": true
+            "Value": false
         },
         {
             "Name": "URL Visibility",
             "ToolTip": "Hide URL bar when browsing inside steam",
             "Type": "CheckBox",
-            "Value": true
+            "Value": false
         },
         {
             "Name": "What's New Visibility",
             "ToolTip": "Hide 'Whats New' on library page",
             "Type": "CheckBox",
-            "Value": true
+            "Value": false
         }
     ],
     "GlobalsColors": [
