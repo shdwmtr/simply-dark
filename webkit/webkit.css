@@ -350,8 +350,8 @@ input.community_home_search_app_input{background-color:var(--grey)!important}
 input.community_home_search_players_input{background-color:var(--grey)!important}
 .community_home_search_players_image{display:none!important}
 .element{position:relative!important;top:50%!important;transform:translate(-50%)!important}
-.modal{max-height:calc(100% - 100px)!important;position:fixed!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important}
-.mediaTop .mediaSidebar{background-color:var(--begrey)!important;height:-webkit-fill-available!important}
+/* .modal{max-height:calc(100% - 100px)!important;position:fixed!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important} */ /* disabled because it prevent user to see artwork and screenshot at community */
+.mediaTop .mediaSidebar{background-color:var(--begrey)!important;height:-webkit-fill-available!important;padding: 20px!important}
 .mediaTop{background-color:var(--begrey)!important}
 .mediaBodyNoBackground{background-color:var(--begrey)!important}
 body.headerOverride{background:var(--darkgrey)!important}
@@ -907,8 +907,10 @@ h2.pageheader{padding-left:0!important}
 .posttitle{font-size:18px!important}
 .tabOff,.tabOn{background:var(--grey)!important;border-radius:var(--border0)!important}
 .flat_page .modal_frame{width:97%!important;left:0!important;margin:0 40px 0 10px!important}
-#modalContentFrameContainer{height:100%!important;overflow:scroll!important}
-#modalContentFrameContainer .modalContent_iFrame{height:900%!important}
+/* #modalContentFrameContainer{height:100%!important} */
+/* #modalContentFrameContainer .modalContent_iFrame{height:100%!important} */
+#modalContentTitleBar{background-color: var(--blacker) !important;}
+#modalContent.modal_frame{border: 2px solid var(--blacker) !important}
 .favorite_game_cap a img{border-radius:var(--border0)!important}
 .showcase_gamecollector_game a img{border-radius:var(--border0)!important}
 .showcase_achievement a img{border-radius:var(--border0)!important}
