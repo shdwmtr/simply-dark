@@ -2,4 +2,8 @@ function say_hello(message) {
     return `Hello ${message}!`
 }
 
-export { say_hello }
+function was_here(message) {
+    return `${message} was here!`
+}
+
+export { say_hello, was_here }

@@ -1,4 +1,64 @@
 {
+    "Conditions": {
+        "Compacted Header": {
+            "description": "Use a more compact header bar on Steam (everything is on 1 row)",
+            "default": "Normal",
+            "values": {
+                "Normal": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "headers/NormalHeader.css"
+                    },
+                    "TargetJs": {
+                        "affects": ["^Steam$"], "src": "headers/NormalHeader.js"
+                    }
+                },
+                "Compact": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "headers/CompactHeader.css"
+                    },
+                    "TargetJs": {
+                        "affects": ["^Steam$"], "src": "headers/CompactHeader.js"
+                    }
+                }
+            }
+        },
+        "Wallet Visibility": {
+            "description": "Show wallet balance on the top right menu",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Account", "^Steam$"], "src": "config/WalletVisibility.css"
+                    }
+                }
+            }
+        },
+        "URL Visibility": {
+            "description": "Show URL bar when browsing inside Steam",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "config/URLBarVisibility.css"
+                    }
+                }
+            }
+        },
+        "What's New Visibility": {
+            "description": "Show news and updates on library from the games you own",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "config/WhatsNewVisibility.css"
+                    }
+                }
+            }
+        }
+    },
     "Configuration": [
         {
             "Name": "Compacted Header",
@@ -437,5 +497,5 @@
         "Sleek",
         "Compact"
     ],
-    "version": "1.2.5"
+    "version": "1.3.0"
 }
