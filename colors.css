@@ -1,5 +1,9 @@
 :root {
-    --color-light: #303030;
+    /** 
+    * @name Light Color
+    * @description The lightest color in the theme 
+    */
+    --color-light: rgb(48, 48, 48);
     --color-dark: #212121;
     --color-darker: #191919;
     --color-darkest: #141414;
