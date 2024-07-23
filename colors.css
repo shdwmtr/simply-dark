@@ -1,49 +1,117 @@
 :root {
     /** 
     * @name Light Color
-    * @description The lightest color in the theme 
+    * @description Button Colors (used in some webkit element)
     */
     --color-light: rgb(48, 48, 48);
+    /** 
+    * @name Dark Color
+    * @description TitleBar, TitleBar Buttons, Library <div> background, Scrollbar (used in some webkit element)
+    */
     --color-dark: #212121;
+    /** 
+    * @name Darker Color
+    * @description Main Background, Library and TitleBar accent (used in some webkit element)
+    */
     --color-darker: #191919;
+    /** 
+    * @name Darkest Color
+    * @description Low priority accent color (used in some webkit element)
+    */
     --color-darkest: #141414;
+    /** 
+    * @name Scrollbar Color
+    * @description Webkit scrollbar color
+    */
     --scrollbar: #303030;
+    /** 
+    * @name Pure Black
+    * @description Low priority accent color (used in some webkit element)
+    */
     --black: #000000;
-    --black-ish: #2a3f5a00;
-    --realblack: #101010;
+    /** 
+    * @name Slight Black
+    * @description Webkit colors 
+    */
     --blacker-ish: #1b1b1b;
+    /** 
+    * @name Slightly Darker Black
+    * @description Webkit colors 
+    */
     --blacker: #1c1c1c;
-    --lightblack: #121212;
-    --darkergrey: #151515;
-    --bedarkgrey: #161616;
-    --thegrey: #181818;
-    --begrey: #262627;
-    --littlegrey: #282828;
-    --darkgrey: #1e1e1f;
+    /** 
+    * @name Light Grey
+    * @description Webkit colors 
+    */
     --grey: #2e2e2f;
+    /** 
+    * @name Grey
+    * @description Webkit colors 
+    */
     --lightgrey: #3e3e3f;
+    /** 
+    * @name Light Grey
+    * @description Webkit colors 
+    */
     --lightergrey: #353535;
+    /** 
+    * @name Slightly Light Grey
+    * @description Webkit colors 
+    */
     --grey-ish: #454545;
+    /** 
+    * @name Slightly More Darker Grey
+    * @description Webkit colors 
+    */
+    --darkergrey: #151515;
+    /** 
+    * @name Slightly A Little More Darker Grey
+    * @description Webkit colors 
+    */
+    --thegrey: #181818;
+    /** 
+    * @name Darker Grey Than Above but Not Darkest
+    * @description Webkit colors 
+    */
+    --begrey: #262627;
+     /** 
+    * @name A Slightly Darker Grey Than Above
+    * @description Webkit colors 
+    */
+    --littlegrey: #282828;
+    /** 
+    * @name Darkest Grey
+    * @description Webkit colors 
+    */
+    --darkgrey: #1e1e1f;
+    /** 
+    * @name Darker White
+    * @description Webkit colors 
+    */
     --darkerwhite: #b8b6b4;
+    /** 
+    * @name Dark White
+    * @description Webkit colors 
+    */
     --darkwhite: #d9dadd;
+    /** 
+    * @name White
+    * @description Webkit colors 
+    */
     --white: #ffffff;
-    --darkblue: #0e5984;
-    --blue: #4f95bd;
-    --brightblue: #1a9fff;
-    --blu: #67c1f5;
-    --blue-ish: #7cbef8;
-    --blue-er: #a4d7f5;
-    --lightblue: #c4e4f2;
-    --darkgreen: #5c7e10;
-    --green: #d2e885;
+    /** 
+    * @name Ingame
+    * @description Ingame color
+    */
     --ingame: #90ba3c;
+    /** 
+    * @name Online
+    * @description Online color
+    */
     --online: #57cbde;
+    /** 
+    * @name Offline
+    * @description Offline color
+    */
     --offline: #898989;
-    --gold: #ffcc6a;
-    --bronze: #695833;
-    --purple: #6624e2;
-    --pink: #ff00ff;
-    --red: #ff0000;
-    --orange: #ff6600;
-    --yellow: #ffff00;
 }
