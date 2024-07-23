@@ -8,6 +8,7 @@
 @import url(steam/Properties.css);
 @import url(steam/TopBar.css);
 @import url(TitleBar.css);
+@import './reservedWebkitColors.css';
 
 ::-webkit-scrollbar{
     background-color: transparent !important;
