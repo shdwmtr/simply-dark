@@ -995,7 +995,7 @@ div#dropdown_sort {
     background: var(--begrey) !important;
 }
 
-body.v6 .game_page_background {
+body.v6 .game_page_background.game {
     background: none !important;
 }
 
@@ -1160,4 +1160,34 @@ a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home
 
 .spotlight_block .spotlight_content>h2, .spotlight_body {
     color: var(--blue-er) !important;
+}
+
+/* Guides page */
+.searchTextContainer {
+    background-image: none !important;
+    padding: 0 0 12px 0;
+}
+
+.guide_home_category_selection {
+    background: var(--darkergrey) !important;
+}
+
+.guide_home_category_name, .guide_home_category_count {
+    padding: 5px 0 0 65px;
+}
+
+.apphub_ContentGuides .workshopItemCollection {
+    background-color: var(--darkergrey) !important;
+}
+
+.workshopItemAuthorLine, .workshopItemShortDesc, .workshopItemAuthorName {
+    color: var(--darkerwhite) !important;
+}
+
+.workshopItemAuthorName {
+    font-weight: 600;
+}
+
+.browseOptionImage {
+    transform: translateY(2px)
 }
