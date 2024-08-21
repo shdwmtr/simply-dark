@@ -1,0 +1,23 @@
+.favoriteElement>.friend>div>div>._1YGAHSfGavQI6MODJq-pJB.ingame {
+    border: solid var(--ingame) 2px !important;
+    border-radius: 6px!important;
+}
+
+.favoriteElement>.friend>div>div>._1YGAHSfGavQI6MODJq-pJB.online {
+    border: solid var(--online) 2px !important;
+    border-radius: 6px!important;
+}
+
+.friendCategoryContainer>.friend>div>._1YGAHSfGavQI6MODJq-pJB.ingame {
+    border: solid var(--ingame) 2px !important;
+    border-radius: 6px!important;
+}
+
+.friendCategoryContainer>.friend>div>._1YGAHSfGavQI6MODJq-pJB.online {
+    border: solid var(--online) 2px !important;
+    border-radius: 6px!important;
+}
+
+.friendlistListContainer .friend .avatarHolder {
+    padding-right: 0 !important;
+}

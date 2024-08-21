@@ -57,6 +57,18 @@
                     }
                 }
             }
+        },
+        "Friends Status Outline": {
+            "description": "Enable the friends status (online and in-game) indicator in friends tab",
+            "default": "Hide",
+            "values": {
+                "Hide": {},
+                "Show": {
+                    "TargetCss": {
+                        "affects": ["friendsui-container"], "src": "config/FriendsOutline.css"
+                    }
+                }
+            }
         }
     },
     "Configuration": [
@@ -498,5 +510,5 @@
         "Sleek",
         "Compact"
     ],
-    "version": "1.3.0"
+    "version": "1.3.1"
 }
