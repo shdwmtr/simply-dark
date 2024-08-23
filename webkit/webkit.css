@@ -1191,3 +1191,26 @@ a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home
 .browseOptionImage {
     transform: translateY(2px)
 }
+
+/* Points shop */
+
+._3M7bfuSoa6JGmxA1QmgvE-, ._3uAuM7D5wUQg-5M21NGJc5 {
+    background: var(--darkergrey) !important;
+}
+
+._1B_k-wp3lqSLARvY8-5-EX {
+    background: var(--bedarkgrey) !important;
+}
+
+.beNH0vEoCPTCIbODMRb2A._1D-8s79QAmUBhHzL8NO5Xx {
+    backdrop-filter: blur(20px);
+}
+
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh {
+    background: var(--bedarkgrey) !important;
+}
+
+._2c38-cNCRIFm4I1wCCJ2ac, ._2tQyoFl0ilITEK586SpZlQ {
+    background: var(--color-dark) !important;
+    color: var(--darkerwhite);
+}
