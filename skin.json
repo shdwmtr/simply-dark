@@ -69,6 +69,18 @@
                     }
                 }
             }
+        },
+        "Steam News Visibility": {
+            "description": "Show 'Steam News' button (megaphone) on top right",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "config/NewsButtonVisibility.css"
+                    }
+                }
+            }
         }
     },
     "Configuration": [
