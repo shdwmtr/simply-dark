@@ -868,7 +868,6 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .avatar_workshop_overlay{background:0 0!important}
 .current_player_workshop_link{padding-left:60px!important}
 .joinGroup{border-radius:var(--border0)!important;width:240px!important;height:80px!important;background:var(--darkgrey)!important}
-.joinGroupTitle{margin-left:50px!important}
 #ig_bottom .sidebar .detailPanel,#ig_bottom .sidebar .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
 .subscribeRSS{padding-top:15px!important;padding-bottom:5px!important}
 .right_column .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
@@ -1214,3 +1213,10 @@ a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home
     background: var(--color-dark) !important;
     color: var(--darkerwhite);
 }
+
+/* Workshop Page */
+.current_player_workshop_title a {
+    padding-left: 60px !important
+}
+
+.joinGroupTitle{margin-left:15px!important}
