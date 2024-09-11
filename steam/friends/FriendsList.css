@@ -132,3 +132,7 @@ img._338kJp62vHY5iDbsraaiKD {
 .inputContainer.no-drag > input, .inputContainer.no-drag > input:focus {
     background-color: var(--color-light)
 }
+
+.title-area-highlight {
+    display: none;
+}

@@ -22,7 +22,7 @@ If any bugs present themselves that inherently affect your Steam experience, you
 You can also create an issue and might be fixed for you. 
 
 ## Customization
-Simply dark allows you to customize some parts of the Steam client component. For now, there are 6 customization options available.
+Simply dark allows you to customize some parts of the Steam client component. For now, there are 7 customization options available.
 
 1. **Color Settings**: Controls the color used in the theme.
 1. **Compacted Header**: Allows you to put the _"Store, Library, and Community"_ bar into one single row above with the Steam logo.

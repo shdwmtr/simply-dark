@@ -746,10 +746,22 @@ EG: "Play next" category names & "Sort by" dropdown */
 
 /* 'Add non-steam game' pop-up */
 
-._3m0MnUo45wjLOfNLpZ-3KH {
-    background-color: var(--color-dark) !important;
+._2EstNjFIIZm_WUSKm5Wt7n.H2MNnp7B_8r37I5wiifE0 {
+    background-color: var(--color-darker) !important;
 }
 
-._1e6tjguQEHdYIehM9aRmO5 {
-    background-color: var(--color-darker) !important;
+/* Context Menu Pop Up on Steam Icon */
+
+._2EstNjFIIZm_WUSKm5Wt7n._3qIuY9S_vXm3IQS-uE9SRS {
+    background: var(--color-darker) !important;
+}
+
+/* Settings Page */
+
+._2kwFFHckg8jvnwJfg9-la8 {
+    background: var(--darkgrey) !important;
+}
+
+._2DpXjzK3WWsOtUWUrcuOG7 {
+    background: var(--lightgrey) !important;
 }
