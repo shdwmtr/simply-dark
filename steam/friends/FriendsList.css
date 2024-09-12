@@ -27,10 +27,6 @@
     width: 0px !important;
 }
 
-/* .friendsListSectionTitle {
-    display: none !important;
-} */
-
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
     border-top: .5px solid rgba(143,143,143,.25);
 }
@@ -40,12 +36,12 @@
 }
 
 /* Hide avatar borders */
-img._338kJp62vHY5iDbsraaiKD {
+img._3fM0F85j3aWVzr4RJM9-eu {
     display: none !important;
 }
 
 /* Hide the activity status (looks like shit) */
-._1yIzy56YfJIliF6ykwhP2r.avatarStatus {
+._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
     display: none !important;
 }
 
@@ -108,15 +104,6 @@ img._338kJp62vHY5iDbsraaiKD {
     background: var(--color-light) !important;
 }
 
-/* .tabSearchTransitionGroup::after {
-    position: absolute !important;
-    padding-left: 5px !important;
-    content: "Search for a friend...";
-    text-transform: none !important;
-    font-weight: 400 !important;
-    color: #666 !important;
-} */
-
 .searchPlaceholder {
     position: absolute !important;
     padding: 2px 0 0 10px !important;
@@ -135,4 +122,8 @@ img._338kJp62vHY5iDbsraaiKD {
 
 .title-area-highlight {
     display: none;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu.currentUserContextMenu {
+    background: var(--color-darker);
 }
