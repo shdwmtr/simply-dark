@@ -1,8 +1,8 @@
-div > img._338kJp62vHY5iDbsraaiKD, div > ._1YGAHSfGavQI6MODJq-pJB ._3atbNcPD1_nRVTjOvryjWe{
+div > img._338kJp62vHY5iDbsraaiKD, div > .nibodjvvrm86uCfnnAn4g ._3atbNcPD1_nRVTjOvryjWe{
     display: block !important;
 }
 
-._1YGAHSfGavQI6MODJq-pJB:has(._3atbNcPD1_nRVTjOvryjWe) img{
+.nibodjvvrm86uCfnnAn4g:has(._3atbNcPD1_nRVTjOvryjWe) img{
     border: none !important;
     border-radius: 0 !important;
     width: calc(100% + 1px) !important;
