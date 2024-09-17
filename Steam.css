@@ -73,11 +73,6 @@ img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
     display: none !important;
 }
 
-/* 
-[class*="gamelistdropdown_Bar_"], [class*="gamelistbar_GameListHomeAndSearch_"] {
-    display: none !important;
-} */
-
 /* Library Seperator */
 
 ._276E6ijBpjMA2_iTxNhhjc {
@@ -384,8 +379,13 @@ img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
 }
 
 /* Context Menus */
-._3pofGqV0buiKAfMPEs3_82 {
+._3pofGqV0buiKAfMPEs3_82,
+.PP7LM0Ow1K5qkR8WElLpt._1UOkn2fGQ25jnyqcEJbnlo.visible._1S6CCCQlcTTAAHh3LMTLh1,
+._1ZpBQtDqcKBbfIIv01Vs1R>div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div,
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer{
     background: var(--color-darker) !important;
+    border-radius: 6px;
+    margin-bottom: 0 !important
 }
 
 ._2y2tUbsMx8OIwkimGSyHmb._3pofGqV0buiKAfMPEs3_82.Eq8Px4ixn5sAFSR6_9wWQ {
