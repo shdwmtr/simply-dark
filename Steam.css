@@ -764,3 +764,26 @@ EG: "Play next" category names & "Sort by" dropdown */
 ._2DpXjzK3WWsOtUWUrcuOG7 {
     background: var(--lightgrey) !important;
 }
+
+._1ml4SNc3LIyBDHIf8ekVSw {
+    background-color: var(--color-dark) !important;
+    box-shadow: none !important;
+}
+
+.HijmccPB1BKyhOwhX1EVl, .HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover{
+    background-color: var(--color-light);
+    transition: all 0.2s ease-in-out;
+}
+
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
+    color: white
+}
+
+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)::before {
+    display: none !important;
+}
+
+._28eIRmQ229ntDIyQXTn3Ub.QE3sHW9puNTAjiRDY71Xy {
+    background-color: var(--color-light) !important;
+    box-shadow: none !important;
+}
