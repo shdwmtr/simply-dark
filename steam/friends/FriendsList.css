@@ -3,6 +3,7 @@
 
 .friendListHeaderContainer {
     background: var(--color-dark) !important;
+    z-index: 2;
 }
 
 .friend.quickAccessFriend .avatarHolder .avatar {
