@@ -38,8 +38,8 @@ This allows you to open the inspector on the Steam window, which allows you to e
 
 ## Contributors
 Special Thanks to:
-- [ShadowMonster99](https://github.com/ShadowMonster99) (author, developer)
+- [shdwmtr](https://github.com/shdwmtr), [clawdius](https://github.com/clawdius),  (developer)
 - [MapleAtMorning](https://github.com/MapleAtMorning) (maintaining).
-- [clawdius](https://github.com/clawdius), [Preshyon](https://github.com/madmaxgrey) (bug fixing).
+- [Preshyon](https://github.com/madmaxgrey) (bug fixing).
    
 Contributing is encouraged. Anyone can create a pull request if it's deemed useful.
