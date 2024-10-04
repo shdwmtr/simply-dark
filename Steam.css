@@ -716,11 +716,9 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
     box-sizing: border-box;
 }
 
-body.ContextMenuPopupBody.DesktopUI {
-    background: transparent !important;
-}
-
-._1YdRdM9TZ_3Xolwv9aVEv- .DialogInputLabelGroup ._DialogInputContainer{
+body.ContextMenuPopupBody.DesktopUI,
+._1YdRdM9TZ_3Xolwv9aVEv- .DialogInputLabelGroup ._DialogInputContainer,
+._2sNr7PFYcJZWNkEMCDVVPR {
     background: transparent !important;
 }
 
