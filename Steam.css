@@ -786,3 +786,16 @@ EG: "Play next" category names & "Sort by" dropdown */
     background-color: var(--color-light) !important;
     box-shadow: none !important;
 }
+
+._7EGqd8bdiXJBd2fj5Hh8r {
+    background: var(--color-darker);
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r:hover {
+    background: var(--grey);
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g {
+    background: var(--darkergrey);
+}
+
