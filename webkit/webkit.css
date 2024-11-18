@@ -424,8 +424,8 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .profile_header_badgeinfo_badge_area{width:268px!important}
 .profile_header_badge{border:0!important;border-radius:var(--border1)!important;background-color:transparent!important;height:70px!important;margin-bottom:13px!important}
 .profile_header_actions{white-space:nowrap!important}
-.btn_profile_action.btn_medium{margin-right:10px!important;border-radius:25px!important;text-align:center!important;background:var(--darkgrey)!important;border:0!important}
-.btn_profile_action.btn_medium:hover{margin-right:10px!important;border-radius:25px!important;text-align:center!important;background:var(--blue)!important;border:0!important}
+.btn_profile_action.btn_medium{margin-right:10px!important;border-radius:var(--border0)!important;text-align:center!important;background:var(--darkgrey)!important;border:0!important}
+.btn_profile_action.btn_medium:hover{margin-right:10px!important;border-radius:var(--border0)!important;text-align:center!important;background:var(--blue)!important;border:0!important}
 .groupadmin_content .rightbox_content_header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .profile_background_current{border-radius:var(--border0)!important;border-top:0!important;border-right:0!important;border-left:0!important;border-bottom:0!important}
 .btn_profile_action>span{background:transparent!important}
