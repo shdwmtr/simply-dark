@@ -1220,3 +1220,11 @@ a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home
 }
 
 .joinGroupTitle{margin-left:15px!important}
+
+.workshopItemSubscription {
+    background: var(--bedarkgrey) !important;
+}
+
+.backgroundImg {
+    display: none;
+}
