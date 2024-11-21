@@ -1220,3 +1220,16 @@ a:hover, body.v6 .store_nav .popup_menu_subheader, body.v6 .deep_dive_tag, .home
 }
 
 .joinGroupTitle{margin-left:15px!important}
+
+.workshopItemSubscription {
+    background: var(--bedarkgrey) !important;
+}
+
+.backgroundImg {
+    display: none;
+}
+
+/* Family Settings Page */
+._2LyGIHuQ8SFKb5T262YUvg, .O_QQdR2Hi2oq9k3mKRAQl, ._3VYLj7Kf9u3FCG4cI1gnM7, ._1JFlDaoGEUJH6J-nks7h-3 {
+    background: none !important;
+}
