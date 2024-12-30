@@ -6,6 +6,7 @@ new MutationObserver((mutations) => {
 			if (addedNode.classList && addedNode.classList.contains('_3mz8wQ6Q44B8P7pzPP4Iyw')) {
 				const title_bar_controls = document.querySelector('._3cykd-VfN_xBxf3Qxriccm')
 				const bottom_bar_controls = document.querySelector('._1_yS5UP7el0aN4vntx3dx')
+				const top_bar_container = document.querySelector("._3Z3ohQ8-1NKnCZkbS6fvy")
 				//fires `changeOffset` before adding mutationobs
 				changeOffset(bottom_bar_controls, title_bar_controls.offsetWidth)
 				//titlebar observer
@@ -16,6 +17,11 @@ new MutationObserver((mutations) => {
 					}
 				//listen for mutations on the titlebar, but we dont listen for anything in specific, just changes
 				}).observe(title_bar_controls, { attributes: true, childList: true, subtree: true, characterData: true });
+
+				//Workaround to "refresh" the bottombars positioning without waiting the titlebar to change size by clicking the top empty space
+				top_bar_container.addEventListener("click", () => {
+					changeOffset(bottom_bar_controls, title_bar_controls.offsetWidth)
+				})
 			}
 		});
 	});
