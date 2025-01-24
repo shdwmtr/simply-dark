@@ -12,6 +12,12 @@
     width: 13px !important;
 }
 
+/* Fix for the small x on some windows */
+._1_vCR1dPfyJ7_yukwDqblf._240i58XQ0w78YFrd_p-9UY>.SVGIcon_X_Line {
+    height: inherit !important;
+    width: inherit !important;
+}
+
 /* Hide the View menu and other stuff */
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(2),
 ._2UyOBeiSdBayaFdRa39N2O:nth-of-type(3),
