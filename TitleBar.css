@@ -13,7 +13,8 @@
 }
 
 /* Fix for the small x on some windows */
-._1_vCR1dPfyJ7_yukwDqblf._240i58XQ0w78YFrd_p-9UY>.SVGIcon_X_Line {
+._1_vCR1dPfyJ7_yukwDqblf._240i58XQ0w78YFrd_p-9UY>.SVGIcon_X_Line,
+.gioyPMOZttYFcnmgLnsWf .iYW5hWQwg14WYT4PV3xe_>.SVGIcon_X_Line {
     height: inherit !important;
     width: inherit !important;
 }
