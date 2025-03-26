@@ -367,7 +367,6 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 .sectionTab.active{background:0 0!important}
 .sectionTab,a.sectionTab{background-color:rgba(0,0,0,0)!important}
 .sectionTab:hover{background-color:rgba(0,0,0,0)!important}
-.friendBlock{background:var(--darkgrey)!important}
 .miniprofile_top{border:0!important;background:var(--grey)!important;border-radius:var(--border0)!important}
 .miniprofile_player .playername{padding-top:10px!important}
 #contextselect{background-image:none!important}
@@ -412,8 +411,6 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .forum_op{position:relative!important;padding:7px 12px 21px 63px!important;margin-bottom:8px!important;max-width:565px!important;background-color:var(--bedarkgrey)!important;background-image:none!important;background-repeat:no-repeat!important;background-position:top left!important;border:0!important;border-radius:var(--border0)!important}
 .blotter_block{position:relative!important;background:var(--bedarkgrey)!important;border-radius:var(--border0)!important}
 .dynamiclink_box{border:1px solid var(--grey)!important;background-color:var(--grey)!important}
-.profile_header_bg_texture{background-color:rgba(23,23,23,.85)!important;background-image:none!important;backdrop-filter:var(--blur)!important;border-radius:var(--border0)!important;min-height:200px!important;padding-bottom:15px!important}
-.profile_header_bg{background-image:none!important;padding-bottom:0!important;padding-top:10px!important;min-height:226px!important}
 .profile_background_holder_content{border-radius:var(--border0)!important}
 .playerAvatar.profile_header_size.in-game{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important;background:-webkit-linear-gradient(top,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;background:linear-gradient(to bottom,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;filter:none!important}
 .playerAvatar.profile_header_size.online{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important;background-color:var(--online)!important;background:-webkit-linear-gradient(top,rgba(83,164,196,1) 5%,rgba(69,128,151,1) 95%)!important;background:linear-gradient(to bottom,rgba(83,164,196,1) 5%,rgba(69,128,151,1) 95%)!important;filter:none!important}
@@ -424,8 +421,6 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .profile_header_badgeinfo_badge_area{width:268px!important}
 .profile_header_badge{border:0!important;border-radius:var(--border1)!important;background-color:transparent!important;height:70px!important;margin-bottom:13px!important}
 .profile_header_actions{white-space:nowrap!important}
-.btn_profile_action.btn_medium{margin-right:10px!important;border-radius:var(--border0)!important;text-align:center!important;background:var(--darkgrey)!important;border:0!important}
-.btn_profile_action.btn_medium:hover{margin-right:10px!important;border-radius:var(--border0)!important;text-align:center!important;background:var(--blue)!important;border:0!important}
 .groupadmin_content .rightbox_content_header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .profile_background_current{border-radius:var(--border0)!important;border-top:0!important;border-right:0!important;border-left:0!important;border-bottom:0!important}
 .btn_profile_action>span{background:transparent!important}
@@ -437,7 +432,6 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .friendBlock.persona.in-game{color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.online{color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.offline{color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
-.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important}
 .workshop_showcase_details_row{background-image:none!important}
 .profile_header_content{padding-top:0px!important}
 .workshop_showcase_details_content{background-color:transparent!important}
@@ -479,7 +473,6 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .player_avatar{border-radius:var(--border35)!important}
 .player_avatar img{border-radius:var(--border35)!important}
 .friend_block_link_overlay{border-top-style:solid!important;border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-width:1px!important}
-.profile_content{background-image:none!important;background:var(--darkgrey)!important}
 .guideTop .workshopItemControls{background-color:var(--bedarkgrey)!important}
 .guideTop{background-color:var(--darkgrey)!important}
 .friend_reviews .review_box{border-left:1px solid var(--thegrey)!important;border-top:1px solid var(--thegrey)!important;background:var(--thegrey)!important}
@@ -556,7 +549,6 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .block_content.block_content_inner.dark{border-radius:var(--border0)!important}
 .popup_body.popup_menu.shadow_content{border-radius:var(--border0)!important;z-index:200!important}
 #profile_action_dropdown .popup_menu_item{padding: 0px 12px!important;line-height:26px!important}
-.profile_customization{border-radius:var(--border0)!important;background-image:none!important;background-color:transparent!important}
 .workshop_showcase_item img.workshop_showcase_item_image{border-radius:var(--border0)!important}
 .guide_showcase_appinfo .workshop_showcase_app img{border-radius:var(--border0)!important}
 .favoritegroup_showcase_group .favoritegroup_avatar img{border-radius:var(--border0)!important}
