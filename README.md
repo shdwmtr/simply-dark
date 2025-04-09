@@ -11,11 +11,10 @@ If you enjoy this theme, please consider starring the project ⭐
 
 
 ## Installation
-1. Download the [Millennium](https://steambrew.app/). Follow the instructions provided to install the patcher.
-1. Open Steam and navigate to `Steam -> Settings -> Interface -> Open Millennium`
-1. With the Millennium interface open, drag the install button overtop of the interface.
-1. From there, you will see a install prompt. Now simply drop the theme
-1. Select the theme from the interface after it installs.
+1. Download and install [Millennium](https://steambrew.app/).
+1. Click the `Install` button on this theme page.
+1. Open Steam and navigate to `Steam -> Millennium`
+1. Select `Simple Dark.` on the `Client Theme`.
 
 ## Issues
 If any bugs present themselves that inherently affect your Steam experience, you can fix them, create a pull request and become a contributor/developer. 
