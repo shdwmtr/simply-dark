@@ -384,9 +384,13 @@ img._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
 ._3pofGqV0buiKAfMPEs3_82,
 .PP7LM0Ow1K5qkR8WElLpt._1UOkn2fGQ25jnyqcEJbnlo.visible._1S6CCCQlcTTAAHh3LMTLh1,
 ._1ZpBQtDqcKBbfIIv01Vs1R>div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div,
-.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer{
-    background: var(--color-darker) !important;
-    margin-bottom: 0 !important
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, 
+._2yAm5LY_eu-Vg_52l0HFlM{
+    margin-bottom: 0 !important;
+    background: none !important;
+    border-radius: 2px !important;
+    background-color: var(--darkergrey) !important;
+    padding: 6px;
 }
 
 ._2y2tUbsMx8OIwkimGSyHmb._3pofGqV0buiKAfMPEs3_82.Eq8Px4ixn5sAFSR6_9wWQ {
@@ -805,4 +809,3 @@ EG: "Play next" category names & "Sort by" dropdown */
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g {
     background: var(--darkergrey);
 }
-
