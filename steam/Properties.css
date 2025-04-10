@@ -1,22 +1,26 @@
 /* Settings Panel */
 ._1I3NifxqTHCkE-2DeritAs {
-    background: var(--color-dark) !important;
+    background: var(--darkergrey) !important;
 }
 
 .RTicBCbDcEGkjsbmWzA8C {
-    background: var(--color-darker) !important;
+    background: var(--darkergrey) !important;
 }
 
 .bkfjn0yka2uHNqEvWZaTJ.Myra7iGjzCdMPzitboVfh {
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz ._2V2nc3qHRjg_726Zc2HT28 { 
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
-    background: var(--color-light) !important; 
+    background: var(--color-dark) !important; 
+}
+
+.PopupFullWindow>._2yAm5LY_eu-Vg_52l0HFlM{
+    background-color: transparent !important; 
 }
 
 ._3qEgQJqeb0zyM12KXq64Or, .BRmrC-jnwpXqye4oYB21C button.DialogButton {
@@ -48,68 +52,72 @@
 }
 
 .bkfjn0yka2uHNqEvWZaTJ:not(.Myra7iGjzCdMPzitboVfh):hover {
-    background-color: var(--color-dark) !important;
+    background-color: var(--darkergrey) !important;
     color: var(--white) !important;
 }
 
 /* DLC page */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .ZII4C3WPvs65P3yvAtV69 ._3jITh4rujugtH2LfgXhuLE {
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._1SKB0Xc7OpWlOlr-wSi8ho {
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
 }
 
 .DialogBody a {
-    background: var(--color-darker) !important;
+    background: var(--darkergrey) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW ._2nXS1OQvhODwzoAc75AEKR {
     margin: none !important;
-    background: var(--color-darker) !important;
+    background: var(--darkergrey) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
-    background: var(--color-darker) !important;
+    background: var(--darkergrey) !important;
     border-radius: 3px !important;
 }
 
 /* Local Files */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .vgVsCDEci0IK6JY9IrT9w .appproperties_BrowseDiskButton_ {
-    background: var(--color-light) !important;
+    background: var(--darkergrey) !important;
 }
 
 button.DialogButton {
-    background: var(--color-light) !important;
+    background: var(--color-dark) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .pht3SaejGcAJEjNG8d6nd {
-    background: var(--color-darker) !important;
+    background: var(--darkergrey) !important;
     border-radius: 3px !important;
 }
 
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd .iWdskI4in7pZbS0ETm5QQ ._1N6t5cU9mG4040gmQUU6-U,
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd .iWdskI4in7pZbS0ETm5QQ ._1N6t5cU9mG4040gmQUU6-U  .Focusable > div{
-    background: var(--color-darker) !important;
+    background: var(--darkergrey) !important;
 }
 
 .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
 }
 
 a._1Z3B4iGT48X6pYKxjbVdBO:hover {
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ:hover {
-    background: var(--color-dark) !important;
+    background: var(--darkergrey) !important;
 }
 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9:hover {
-    background: var(--color-dark) !important;
+    background: var(--darkergrey) !important;
 }
 
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {
-    background: var(--color-light) !important;
+    background: var(--grey) !important;
+}
+
+.millenniumPluginField {
+    background: var(--color-dark) !important;
 }

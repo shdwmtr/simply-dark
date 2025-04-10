@@ -39,7 +39,7 @@
 }
 
 .DialogContent {
-    background: var(--color-dark) !important;
+    background: var(--color-darker) !important;
 }
 
 .DialogButton {
@@ -768,7 +768,7 @@ EG: "Play next" category names & "Sort by" dropdown */
 /* Settings Page */
 
 ._2kwFFHckg8jvnwJfg9-la8 {
-    background: var(--darkgrey) !important;
+    background: var(--color-dark) !important;
 }
 
 ._2DpXjzK3WWsOtUWUrcuOG7 {
