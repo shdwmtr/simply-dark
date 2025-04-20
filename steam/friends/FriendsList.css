@@ -128,3 +128,12 @@ img._3fM0F85j3aWVzr4RJM9-eu {
 ._2EstNjFIIZm_WUSKm5Wt7n.friendsContextMenu.currentUserContextMenu {
     background: var(--color-darker);
 }
+
+/* Context menu */
+
+.PP7LM0Ow1K5qkR8WElLpt {
+    margin-bottom: 0 !important;
+    background: none !important;
+    border-radius: 2px !important;
+    background-color: var(--color-darker) !important;
+}
