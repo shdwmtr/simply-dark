@@ -88,6 +88,10 @@ button.DialogButton {
     background: var(--color-dark) !important;
 }
 
+.DialogTwoColLayout button.DialogButton {
+    background: var(--color-light) !important;
+}
+
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .pht3SaejGcAJEjNG8d6nd {
     background: var(--darkergrey) !important;
     border-radius: 3px !important;
