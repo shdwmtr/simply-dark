@@ -432,9 +432,7 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .friendBlock.persona.in-game{color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.online{color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.offline{color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
-.workshop_showcase_details_row{background-image:none!important}
 .profile_header_content{padding-top:0px!important}
-.workshop_showcase_details_content{background-color:transparent!important}
 .gray_bevel.for_text_input{border-radius:var(--border0)!important;background-color:var(--black-ish)!important;border:1px solid var(--black)!important}
 #about_header_area{background-image:none!important;background:var(--darkgrey)!important}
 .blotter_screenshot_image{background-color:var(--lightblack)!important}
