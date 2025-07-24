@@ -58,6 +58,18 @@
                 }
             }
         },
+        "Add Shelf Visibility": {
+            "description": "Show add shelf button",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "config/AddShelfVisibility.css"
+                    }
+                }
+            }
+        },
         "Friends Status Outline": {
             "description": "Enable the friends status (online and in-game) indicator in friends tab",
             "default": "Hide",
