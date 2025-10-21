@@ -3682,6 +3682,8 @@ div.profile_page.has_profile_background {
     margin-top: -20px !important;
     margin-bottom: 0px !important;
 }
+.queue_ctn .queue_actions_ctn {
+    padding: 18px 0px !important;
 }
 
 /* This is the part for the Group page Banner */
