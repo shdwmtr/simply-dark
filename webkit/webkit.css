@@ -1160,6 +1160,9 @@ body.v6 {
 .game_background_glow {
     background: 0 0 !important;
 }
+.game_background_lighten {
+    background: transparent !important;
+}
 .store_capsule:hover {
     background: var(--grey) !important;
     border-radius: var(--border0) !important;
