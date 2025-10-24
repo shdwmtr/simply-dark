@@ -1160,6 +1160,9 @@ body.v6 {
 .game_background_glow {
     background: 0 0 !important;
 }
+.game_background_lighten {
+    background: transparent !important;
+}
 .store_capsule:hover {
     background: var(--grey) !important;
     border-radius: var(--border0) !important;
@@ -3682,8 +3685,8 @@ div.profile_page.has_profile_background {
     margin-top: -20px !important;
     margin-bottom: 0px !important;
 }
-.queue_overflow_ctn {
-    margin-top: -20px !important;
+.queue_ctn .queue_actions_ctn {
+    padding: 18px 0px !important;
 }
 
 /* This is the part for the Group page Banner */
