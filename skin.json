@@ -1,6 +1,7 @@
 {
     "Conditions": {
         "Compacted Header": {
+            "tab": "Window",
             "description": "Use a more compact header bar on Steam (everything is on 1 row)",
             "default": "Normal",
             "values": {
@@ -22,7 +23,21 @@
                 }
             }
         },
+        "Native Titlebars": {
+            "tab": "Window",
+            "description": "Use system's native titlebars (minimize, maximize, restore, and close) buttons",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "config/NativeTitlebarVisibility.css"
+                    }
+                }
+            }
+        },
         "Wallet Visibility": {
+            "tab": "Elements",
             "description": "Show wallet balance on the top right menu",
             "default": "Show",
             "values": {
@@ -35,6 +50,7 @@
             }
         },
         "URL Visibility": {
+            "tab": "Elements",
             "description": "Show URL bar when browsing inside Steam",
             "default": "Show",
             "values": {
@@ -47,6 +63,7 @@
             }
         },
         "What's New Visibility": {
+            "tab": "Elements",
             "description": "Show news and updates on library from the games you own",
             "default": "Show",
             "values": {
@@ -59,6 +76,7 @@
             }
         },
         "Add Shelf Visibility": {
+            "tab": "Elements",
             "description": "Show add shelf button",
             "default": "Show",
             "values": {
@@ -71,6 +89,7 @@
             }
         },
         "Friends Status Outline": {
+            "tab": "Elements",
             "description": "Enable the friends status (online and in-game) indicator in friends tab",
             "default": "Hide",
             "values": {
@@ -83,6 +102,7 @@
             }
         },
         "Steam News Visibility": {
+            "tab": "Elements",
             "description": "Show 'Steam News' button (megaphone) on top right",
             "default": "Show",
             "values": {
@@ -95,32 +115,6 @@
             }
         }
     },
-    "Configuration": [
-        {
-            "Name": "Compacted Header",
-            "ToolTip": "Use a more compact header bar on Steam (everything is on 1 row)",
-            "Type": "CheckBox",
-            "Value": false
-        },
-        {
-            "Name": "Wallet Visibility",
-            "ToolTip": "Hide wallet amount from user menu",
-            "Type": "CheckBox",
-            "Value": false
-        },
-        {
-            "Name": "URL Visibility",
-            "ToolTip": "Hide URL bar when browsing inside steam",
-            "Type": "CheckBox",
-            "Value": false
-        },
-        {
-            "Name": "What's New Visibility",
-            "ToolTip": "Hide 'Whats New' on library page",
-            "Type": "CheckBox",
-            "Value": false
-        }
-    ],
     "GlobalsColors": [
         {
             "ColorName": "--color-light",
@@ -500,17 +494,6 @@
         {
             "MatchRegexString": "OverlayBrowser_Browser",
             "TargetCss": "overlay/Browser.css"
-        },
-        {
-            "MatchRegexString": "^Account.",
-            "Statement": {
-                "If": "Wallet Visibility",
-                "Equals": true,
-                "True": {
-                    "TargetCss": "config/WalletVisibility.css"
-                },
-                "False": {}
-            }
         }
     ],
     "RootColors": "colors.css",
@@ -534,5 +517,5 @@
         "Sleek",
         "Compact"
     ],
-    "version": "1.4"
+    "version": "1.5"
 }
