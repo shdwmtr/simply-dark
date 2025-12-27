@@ -24,5 +24,7 @@ new MutationObserver((mutations) => {
 }).observe(document.body, { childList: true, subtree: true });
 
 function changeOffset(bottom, offsetWidth) {
-	bottom.style.setProperty('right', `${offsetWidth + 90}px`, 'important')
+	let offset = 0;
+	if(getComputedStyle(document.querySelector("._1-9sir4j_KQiMqdkZjQN0u")).right != "0px") offset = 90;
+	bottom.style.setProperty('right', `${offsetWidth + offset}px`, 'important')
 };
