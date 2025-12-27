@@ -394,30 +394,6 @@
                         "TargetCss": "headers/CompactHeader.css",
                         "TargetJs": "headers/CompactHeader.js"
                     }
-                },
-                {
-                    "Equals": true,
-                    "False": {},
-                    "If": "Wallet Visibility",
-                    "True": {
-                        "TargetCss": "config/WalletVisibility.css"
-                    }
-                },
-                {
-                    "Equals": true,
-                    "False": {},
-                    "If": "URL Visibility",
-                    "True": {
-                        "TargetCss": "config/URLBarVisibility.css"
-                    }
-                },
-                {
-                    "Equals": true,
-                    "False": {},
-                    "If": "What's New Visibility",
-                    "True": {
-                        "TargetCss": "config/WhatsNewVisibility.css"
-                    }
                 }
             ],
             "TargetCss": "Steam.css"
